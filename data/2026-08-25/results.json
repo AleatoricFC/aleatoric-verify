@@ -5,6 +5,7 @@
     "home_team_name": "Valencia",
     "away_team_name": "Real Betis",
     "market": "H/D/A",
-    "result": "away"
+    "outcome": "home",
+    "settled": "LOST"
   }
 ]
