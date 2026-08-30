@@ -249,11 +249,18 @@ async function main(){
   const headOk = computedHead === index.head;
   const good = failed===0 && headOk;
   banner.className = "banner " + (good ? "ok":"bad");
+  let sub;
+  if(!headOk){
+    sub = `Chain head <span class="head-hash">${computedHead.slice(0,24)}…</span> does not match this record's stated head — do not trust these results; contact @AleatoricFC.`;
+  } else {
+    sub = `Every day is signed, unaltered, and linked into one chain.<br>`+
+      `Chain head <span class="head-hash">${computedHead.slice(0,24)}…</span><br>`+
+      `👉 To be fully sure, check this head matches the one pinned in the <b>@AleatoricFC</b> channel bio. `+
+      `If they match, the entire history above is authentic — nobody has edited, added, or removed a day.`;
+  }
   banner.innerHTML =
     `<div class="big">${good ? "✅" : "❌"} ${passed} of ${index.days.length} days verified${failed?` · ${failed} failed`:""}</div>`+
-    `<div class="sub">Chain head <span class="head-hash">${computedHead.slice(0,16)}…</span> `+
-    `${headOk ? "matches the record" : "DOES NOT match — history may have been tampered with"}. `+
-    `This head covers the entire history and is pinned in the Telegram bio.</div>`;
+    `<div class="sub">${sub}</div>`;
 }
 main();
 </script>

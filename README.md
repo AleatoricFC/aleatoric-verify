@@ -42,7 +42,7 @@ Trust nothing but the pinned public key:
 
 ```bash
 git clone https://github.com/AleatoricFC/aleatoric-verify
-cd REPO
+cd aleatoric-verify
 pip install cryptography
 python verify.py            # all days + the chain head
 python verify.py 2026-08-30 # one day
