@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-08-30",
+    "league_name": "Jupiler Pro League",
+    "home_team_name": "KVC Westerlo",
+    "away_team_name": "Zulte Waregem",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-08-30",
+    "league_name": "Ligue 1",
+    "home_team_name": "Monaco",
+    "away_team_name": "Marseille",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-08-30",
+    "league_name": "Serie A",
+    "home_team_name": "Cagliari",
+    "away_team_name": "Inter",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-08-30",
+    "league_name": "Serie A",
+    "home_team_name": "Lazio",
+    "away_team_name": "Genoa",
+    "market": "H/D/A"
+  }
+]

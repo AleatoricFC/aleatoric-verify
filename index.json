@@ -1,0 +1,88 @@
+{
+  "generated": "2026-08-30T14:08:46.467928+00:00",
+  "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEADovvXMEwlrLeMVInWM+fxFOjkIFe4ZgAURkpfEqWbWQ=\n-----END PUBLIC KEY-----",
+  "head": "b9fce3ef31bab06d0d205778294773620e7899bf0cb6e3ce63b0fd6c233e71d9",
+  "count": 8,
+  "days": [
+    {
+      "date": "2026-08-15",
+      "timestamp": "2026-08-15T12:13:39.823247+00:00",
+      "manifest_sha256": "610c9d4653e509d6ea39708d95d03e12f2020c1772807eb20f735ae57239ef19",
+      "bets_sha256": "8bab1a2f57498762b663cc6cd40572cef07f98d69d0cbc464d1da3f62e9cd5fb",
+      "signature": "XoUIz1st7QyxLIgtJoJQMc3NrcHMctqOUpg+nKKP/rtY82t/a0R2VbW0cqrW+PKgipemwPmbrBLMZcSgeiRQBQ==",
+      "bets_present": true,
+      "prev": "GENESIS",
+      "chain": "49d8431c6c4e10157aa113ad3f77a42fd3859744644c96f592eea0e52847672f"
+    },
+    {
+      "date": "2026-08-16",
+      "timestamp": "2026-08-16T09:00:09.820036+00:00",
+      "manifest_sha256": "b8c59a0e4366770b035691c678d2de40ae8b64a284d496476fb0adf121bf6b51",
+      "bets_sha256": "8f10f0cc42c11ecfb973a84960f95b9f06c03a8ad7f2730c3ec55c04505d9272",
+      "signature": "5ruMM4Qfaje6M/rhcCkBx5Ygnl2ZMplM8568fk4VLW9CwlQlxYZ0MaTdNKFGxE44WLecy8ZH8AXk0q3D+y0qCQ==",
+      "bets_present": true,
+      "prev": "49d8431c6c4e10157aa113ad3f77a42fd3859744644c96f592eea0e52847672f",
+      "chain": "12b4884cf528d674a17051ac5caccdd28caeee46be91db8e739f86141924e257"
+    },
+    {
+      "date": "2026-08-22",
+      "timestamp": "2026-08-22T09:00:11.398378+00:00",
+      "manifest_sha256": "9700936d0745ae7fad631ab2ef0fbfb5f1c1239403291eefe6f3eead6b9a5f74",
+      "bets_sha256": "e4e9fb888be4c191a33e7e26596f99be33c8b3d81f80add5b2840af9a7216a21",
+      "signature": "J21QwaQ9WElehDuPO2tjxbWj6OibDKadUCNoP71x/kWFpyutzJUHsp8WlPnIVwhTVtWOsDzoF1/gyZJvwRGGDA==",
+      "bets_present": true,
+      "prev": "12b4884cf528d674a17051ac5caccdd28caeee46be91db8e739f86141924e257",
+      "chain": "07839653655d2a409abdbc9a26bf657afe0639a84cf19d8437c3cd241ee757a4"
+    },
+    {
+      "date": "2026-08-23",
+      "timestamp": "2026-08-23T09:00:09.952057+00:00",
+      "manifest_sha256": "f3210a45e7b37073e2ba8276021e99e936ef6d308cdb0e37b621bb4626a88bee",
+      "bets_sha256": "28b3520b178c8476973de78fed0e6848ecae47f7a269b2a61185309f13152ac5",
+      "signature": "tqSjWmBobMhXYR+eTTk+RcLqUFKFPqXJd+E4msJa3HRNpqnBGm2pHeZWGPue0m5sWnNaxBQH7D0FSW8QIvP0BA==",
+      "bets_present": true,
+      "prev": "07839653655d2a409abdbc9a26bf657afe0639a84cf19d8437c3cd241ee757a4",
+      "chain": "e91d903a1418a9c692442161f84c25b9b5f2d5aa9aafaff03dc82531fe994549"
+    },
+    {
+      "date": "2026-08-25",
+      "timestamp": "2026-08-25T09:00:06.167291+00:00",
+      "manifest_sha256": "a9537390acf5403eeaffc6a5b3306faad67ea4fa14c3157a07676dc1c397998b",
+      "bets_sha256": "0d2635f1f92392f5ff989b12562eec15cfb574415240dbcfbd79f32b1d922d72",
+      "signature": "PyOTJ7fUNrzRkSf9GepLUYgrQVyv3rfZjzqeGWhzeMre9HyNT9n9lBRipld/OAtSiJ4Nljm6JSQAba1cS5DTCg==",
+      "bets_present": true,
+      "prev": "e91d903a1418a9c692442161f84c25b9b5f2d5aa9aafaff03dc82531fe994549",
+      "chain": "1193dfd934045360d8bfc405eb99c3ae1d19a231db1f70508bb6784534690452"
+    },
+    {
+      "date": "2026-08-28",
+      "timestamp": "2026-08-28T09:00:14.668362+00:00",
+      "manifest_sha256": "fbe2690a8f789a9f8a3e3ea4f5230bf5fad1a8bb421e5ae36fdf7d56b13fc22a",
+      "bets_sha256": "b57aa34aac7d5eb1b5153a8f97749816c68836e4831a2df43c67ef89bb206530",
+      "signature": "atgA+374LOdyfhjorwaAD+MP+/lB47shj2JeWx2Talvu+hCM1zKamSv7fx1xIqwzWA8kJCJww2LwXAWZgEWEBA==",
+      "bets_present": true,
+      "prev": "1193dfd934045360d8bfc405eb99c3ae1d19a231db1f70508bb6784534690452",
+      "chain": "58e5174f429675aeda44ee502842bce03bd69aebea9a299451602849bf1e9fa6"
+    },
+    {
+      "date": "2026-08-29",
+      "timestamp": "2026-08-29T09:00:15.055353+00:00",
+      "manifest_sha256": "da7e4c2336f32fcdd3318891439a684ec0933ad9423bcc3e1afc4047c911d010",
+      "bets_sha256": "ad1a0662b8ad5a4bef901444f4f15662f65fa28d7ca4bd5919bafd1199ccdf24",
+      "signature": "aHFiwaBLnI21bCJVl+aRYlySGZRyf7aPfdo8S2uYsDKLlUroE44OXa0K1urv5fP4AtiHU0Zn3w4Kz7Ke5g2VBQ==",
+      "bets_present": true,
+      "prev": "58e5174f429675aeda44ee502842bce03bd69aebea9a299451602849bf1e9fa6",
+      "chain": "02c9f1fb2e4c4cb5cd51d73e19954aee15b5db498ae8ad853dce0bfd40ea724f"
+    },
+    {
+      "date": "2026-08-30",
+      "timestamp": "2026-08-30T09:07:40.076067+00:00",
+      "manifest_sha256": "a14531f5d85cd13a6671114c5fddf8c246203a07b7d5e2301fffd0c7f771be1b",
+      "bets_sha256": "fc9c5bece63039de4485c117132791bda6a39eb27d2fa7078a1381d066b22a24",
+      "signature": "46ULfrGUlzjFqjUVoTOTGqeisHg1mN2GJT2ZLZN7HPZTneyM+20MM4GT7UVCFdjzmBksN0DA9ew8nSrHhKdHCA==",
+      "bets_present": true,
+      "prev": "02c9f1fb2e4c4cb5cd51d73e19954aee15b5db498ae8ad853dce0bfd40ea724f",
+      "chain": "b9fce3ef31bab06d0d205778294773620e7899bf0cb6e3ce63b0fd6c233e71d9"
+    }
+  ]
+}

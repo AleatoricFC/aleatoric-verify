@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2026-08-23",
+    "fixture_id": 1557375,
+    "league_name": "Premier League",
+    "home_team_name": "Newcastle",
+    "away_team_name": "Liverpool",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 3.9,
+    "size": 7.26,
+    "predicted_proba_home": 0.28815561532974243,
+    "predicted_proba_draw": 0.294920414686203,
+    "predicted_proba_away": 0.4169239103794098
+  },
+  {
+    "date": "2026-08-23",
+    "fixture_id": 1557375,
+    "league_name": "Premier League",
+    "home_team_name": "Newcastle",
+    "away_team_name": "Liverpool",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "price": 4.0,
+    "size": 10.18,
+    "predicted_proba_home": 0.28815561532974243,
+    "predicted_proba_draw": 0.294920414686203,
+    "predicted_proba_away": 0.4169239103794098
+  },
+  {
+    "date": "2026-08-23",
+    "fixture_id": 1550094,
+    "league_name": "Serie A",
+    "home_team_name": "Torino",
+    "away_team_name": "AC Milan",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 4.4,
+    "size": 13.74,
+    "predicted_proba_home": 0.2897178828716278,
+    "predicted_proba_draw": 0.27284765243530273,
+    "predicted_proba_away": 0.43743446469306946
+  }
+]

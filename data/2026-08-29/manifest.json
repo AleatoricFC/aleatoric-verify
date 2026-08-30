@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-08-29",
+    "league_name": "Bundesliga",
+    "home_team_name": "1. FC K\u00f6ln",
+    "away_team_name": "1899 Hoffenheim",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-08-29",
+    "league_name": "Bundesliga",
+    "home_team_name": "RB Leipzig",
+    "away_team_name": "Borussia M\u00f6nchengladbach",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-08-29",
+    "league_name": "La Liga",
+    "home_team_name": "Sevilla",
+    "away_team_name": "Atletico Madrid",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-08-29",
+    "league_name": "Premier League",
+    "home_team_name": "Bournemouth",
+    "away_team_name": "Everton",
+    "market": "H/D/A"
+  }
+]

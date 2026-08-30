@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-08-15",
+    "fixture_id": 1558593,
+    "league_name": "Jupiler Pro League",
+    "home_team_name": "Genk",
+    "away_team_name": "KVC Westerlo",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "price": 4.6,
+    "size": 3.88
+  },
+  {
+    "date": "2026-08-15",
+    "fixture_id": 1558593,
+    "league_name": "Jupiler Pro League",
+    "home_team_name": "Genk",
+    "away_team_name": "KVC Westerlo",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 6.6,
+    "size": 4.18
+  }
+]

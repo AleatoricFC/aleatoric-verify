@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-08-22",
+    "fixture_id": 1558602,
+    "league_name": "Jupiler Pro League",
+    "home_team_name": "Antwerp",
+    "away_team_name": "Genk",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 3.4,
+    "size": 9.82,
+    "predicted_proba_home": 0.33560413122177124,
+    "predicted_proba_draw": 0.2915475368499756,
+    "predicted_proba_away": 0.37284836173057556
+  },
+  {
+    "date": "2026-08-22",
+    "fixture_id": 1557372,
+    "league_name": "Premier League",
+    "home_team_name": "Brentford",
+    "away_team_name": "Tottenham",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.16,
+    "size": 18.89,
+    "predicted_proba_home": 0.5236526131629944,
+    "predicted_proba_draw": 0.2538992464542389,
+    "predicted_proba_away": 0.2224481850862503
+  },
+  {
+    "date": "2026-08-22",
+    "fixture_id": 1492345,
+    "league_name": "Serie A",
+    "home_team_name": "Fluminense",
+    "away_team_name": "Remo",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "price": 4.0,
+    "size": 3.64,
+    "predicted_proba_home": 0.5450147986412048,
+    "predicted_proba_draw": 0.26631900668144226,
+    "predicted_proba_away": 0.18866626918315887
+  },
+  {
+    "date": "2026-08-22",
+    "fixture_id": 1550091,
+    "league_name": "Serie A",
+    "home_team_name": "Genoa",
+    "away_team_name": "Napoli",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 2.08,
+    "size": 19.63,
+    "predicted_proba_home": 0.21291837096214294,
+    "predicted_proba_draw": 0.2453468143939972,
+    "predicted_proba_away": 0.5417348146438599
+  }
+]

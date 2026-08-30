@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AleatoricFC — Verify</title>
+<style>
+  :root{
+    --bg:#0b0e14; --card:#141924; --line:#232a38; --fg:#e6e9ef; --mut:#8b94a7;
+    --ok:#2ecc71; --okbg:#123322; --bad:#ff5c5c; --badbg:#3a1418; --wait:#f5b642; --waitbg:#3a2e12;
+    --accent:#5b8cff; --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f6f7f9; --card:#fff; --line:#e6e9ef; --fg:#141924; --mut:#5c6472;
+      --okbg:#e5f7ec; --badbg:#fdecec; --waitbg:#fdf3dd; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    -webkit-text-size-adjust:100%}
+  .wrap{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+  header h1{font-size:1.5rem;margin:0 0 4px}
+  header p{color:var(--mut);margin:0 0 20px}
+  a{color:var(--accent)}
+  .banner{border-radius:14px;padding:18px 20px;margin:0 0 20px;border:1px solid var(--line)}
+  .banner.ok{background:var(--okbg);border-color:var(--ok)}
+  .banner.bad{background:var(--badbg);border-color:var(--bad)}
+  .banner .big{font-size:1.15rem;font-weight:650;display:flex;align-items:center;gap:10px}
+  .banner .sub{color:var(--mut);font-size:.9rem;margin-top:6px;word-break:break-all}
+  .head-hash{font-family:var(--mono);font-size:.82rem}
+  .day{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    margin:0 0 14px;overflow:hidden}
+  .day summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;
+    align-items:center;gap:12px;justify-content:space-between}
+  .day summary::-webkit-details-marker{display:none}
+  .day .date{font-weight:650}
+  .day .when{color:var(--mut);font-size:.82rem;font-family:var(--mono)}
+  .pill{font-size:.78rem;font-weight:650;padding:4px 10px;border-radius:999px;white-space:nowrap}
+  .pill.ok{background:var(--okbg);color:var(--ok)}
+  .pill.bad{background:var(--badbg);color:var(--bad)}
+  .pill.wait{background:var(--waitbg);color:var(--wait)}
+  .checks{border-top:1px solid var(--line);padding:14px 18px}
+  .check{display:flex;gap:10px;padding:5px 0;font-size:.92rem;align-items:flex-start}
+  .check .mark{flex:0 0 1.2em}
+  .check .mut{color:var(--mut)}
+  .fixtures{margin:12px 0 2px;border-top:1px dashed var(--line);padding-top:12px}
+  .fx{display:flex;justify-content:space-between;gap:10px;padding:4px 0;font-size:.9rem;flex-wrap:wrap}
+  .fx .lg{color:var(--mut);font-size:.8rem}
+  .stat{display:inline-block;margin:2px 14px 2px 0;color:var(--mut);font-size:.85rem}
+  .stat b{color:var(--fg)}
+  code{font-family:var(--mono);font-size:.85em;background:rgba(128,128,128,.14);
+    padding:1px 5px;border-radius:5px;word-break:break-all}
+  footer{color:var(--mut);font-size:.85rem;margin-top:30px;border-top:1px solid var(--line);padding-top:16px}
+  .spin{color:var(--mut)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>AleatoricFC — Proof of Bets</h1>
+    <p>Every bet is cryptographically locked <b>before kick-off</b> and published here.
+       This page checks the signatures live, in your browser. Nothing to install.</p>
+  </header>
+
+  <div id="banner" class="banner"><div class="big"><span class="spin">Verifying…</span></div></div>
+  <div id="days"></div>
+
+  <footer>
+    <p><b>What this proves.</b> Each day, the full bet list (outcome, price, stake) is hashed and
+    signed with a private key the moment it's placed — then the signature is posted publicly, before
+    any match starts. The next day the full bets are revealed. Because the signature only matches the
+    exact bets that were locked in, they can't be edited, cherry-picked, or backdated after results
+    come in.</p>
+    <p><b>The chain.</b> Every day links to the previous one. The single <em>head</em> hash below covers
+    the entire history — if any past day were changed, added, or removed, the head would change.
+    The current head is pinned in the Telegram channel bio.</p>
+    <p>Prefer to check it yourself from scratch? Clone the
+      <a id="repolink" href="#">repository</a> and run <code>python verify.py</code> — it does the same
+      checks offline with only <code>pip install cryptography</code>.</p>
+  </footer>
+</div>
+
+<script>
+// ---- config -----------------------------------------------------------------
+const REPO_URL = "https://github.com/EyuelPersonal/aleatoric-verify";   // filled in at push time
+// -----------------------------------------------------------------------------
+
+document.getElementById("repolink").href = REPO_URL;
+
+const $ = (t, c, txt) => { const e = document.createElement(t); if(c) e.className=c; if(txt!=null) e.textContent=txt; return e; };
+const hex = buf => [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,"0")).join("");
+async function sha256hex(bytes){ return hex(await crypto.subtle.digest("SHA-256", bytes)); }
+
+function pemToDer(pem){
+  const b64 = pem.replace(/-----[^-]+-----/g,"").replace(/\s+/g,"");
+  const bin = atob(b64); const u = new Uint8Array(bin.length);
+  for(let i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i);
+  return u;
+}
+function b64ToBytes(b64){
+  const bin = atob(b64); const u = new Uint8Array(bin.length);
+  for(let i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i); return u;
+}
+// Reproduce Python: json.dumps({"sha256":..,"timestamp":..}, sort_keys=True)
+// -> byte-for-byte, including the ", " and ": " separators.
+function signedPayload(sha, ts){
+  return new TextEncoder().encode(`{"sha256": ${JSON.stringify(sha)}, "timestamp": ${JSON.stringify(ts)}}`);
+}
+async function sha256Concat(str){ // for the chain link
+  return sha256hex(new TextEncoder().encode(str));
+}
+const fixtureKey = e => `${e.date}|${e.home_team_name}|${e.away_team_name}|${e.market}`;
+
+async function getJSON(url){ const r = await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(r.status); return r.json(); }
+async function getBytes(url){ const r = await fetch(url,{cache:"no-store"}); if(!r.ok){ const e=new Error(r.status); e.status=r.status; throw e; } return new Uint8Array(await r.arrayBuffer()); }
+
+function check(list, ok, text, muted){
+  const row = $("div","check");
+  row.append($("span","mark", ok===null ? "⏳" : ok ? "✅" : "❌"));
+  const body = $("span"); body.append($("span",null,text));
+  if(muted){ body.append(document.createElement("br")); body.append($("span","mut",muted)); }
+  row.append(body); list.append(row);
+}
+
+async function verifyDay(pubkey, entry, prevChain){
+  const dir = `data/${entry.date}`;
+  const box = $("details","day");
+  const sum = $("summary");
+  const left = $("div"); left.append($("div","date", entry.date));
+  left.append($("div","when", new Date(entry.timestamp).toUTCString()));
+  const pill = $("span","pill");
+  sum.append(left, pill); box.append(sum);
+  const checks = $("div","checks"); box.append(checks);
+
+  let allOk = true, revealed = entry.bets_present;
+  try{
+    const manifestBytes = await getBytes(`${dir}/manifest.json`);
+    const manifest = JSON.parse(new TextDecoder().decode(manifestBytes));
+
+    // 1. signature over {sha256,timestamp} — proves it was locked by the key
+    const sigOk = await crypto.subtle.verify(
+      {name:"Ed25519"}, pubkey,
+      b64ToBytes(entry.signature),
+      signedPayload(entry.bets_sha256, entry.timestamp)
+    );
+    allOk &&= sigOk;
+    check(checks, sigOk, "Signature valid — bets were locked with the private key",
+      `signed ${new Date(entry.timestamp).toUTCString()}`);
+
+    // 2. manifest integrity vs index
+    const mSha = await sha256hex(manifestBytes);
+    const mOk = mSha === entry.manifest_sha256;
+    allOk &&= mOk;
+    check(checks, mOk, "Public manifest matches the record");
+
+    // 3. chain link — append-only history
+    const link = await sha256Concat([prevChain, entry.date, entry.manifest_sha256, entry.bets_sha256, entry.signature].join("|"));
+    const cOk = link === entry.chain;
+    allOk &&= cOk;
+    check(checks, cOk, "Chain link intact (connects to the previous day)");
+
+    // 4. if revealed: full bets hash matches the signature + fixtures match manifest
+    let bets = null;
+    if(revealed){
+      const betsBytes = await getBytes(`${dir}/bets.json`);
+      bets = JSON.parse(new TextDecoder().decode(betsBytes));
+      const bSha = await sha256hex(betsBytes);
+      const bOk = bSha === entry.bets_sha256;
+      allOk &&= bOk;
+      check(checks, bOk, "Revealed bets match the signature exactly (unaltered)");
+
+      const mSet = new Set(manifest.map(fixtureKey));
+      const bSet = new Set(bets.map(fixtureKey));
+      const same = mSet.size===bSet.size && [...mSet].every(k=>bSet.has(k));
+      allOk &&= same;
+      check(checks, same, "Revealed bets cover exactly the pre-committed fixtures");
+    } else {
+      check(checks, null, "Full bets not yet revealed — signature is committed, detail publishes next day");
+    }
+
+    // fixtures + stats
+    const list = revealed ? bets : manifest;
+    const fx = $("div","fixtures");
+    const seen = new Set();
+    for(const e of list){
+      const k = fixtureKey(e); if(seen.has(k)) continue; seen.add(k);
+      const row = $("div","fx");
+      const l = $("div"); l.append($("div",null,`${e.home_team_name} vs ${e.away_team_name}`));
+      l.append($("div","lg", `${e.league_name} · ${e.market}`)); row.append(l);
+      fx.append(row);
+    }
+    checks.append(fx);
+    if(revealed){
+      const staked = bets.reduce((s,b)=>s+(b.size||0),0);
+      const stats = $("div"); stats.style.marginTop="10px";
+      stats.innerHTML = `<span class="stat"><b>${seen.size}</b> fixtures</span>`+
+        `<span class="stat"><b>${bets.length}</b> bet legs</span>`+
+        `<span class="stat">staked <b>${staked.toFixed(2)}</b></span>`;
+      checks.append(stats);
+    }
+
+    pill.className = "pill " + (allOk ? "ok" : "bad");
+    pill.textContent = allOk ? (revealed ? "Verified" : "Committed") : "FAILED";
+    if(!allOk) box.open = true;
+  }catch(err){
+    allOk = false;
+    check(checks, false, "Could not load or verify this day", String(err));
+    pill.className = "pill bad"; pill.textContent = "ERROR";
+    box.open = true;
+  }
+  return { box, ok:allOk, chain:entry.chain };
+}
+
+async function main(){
+  const banner = document.getElementById("banner");
+  const daysEl = document.getElementById("days");
+
+  if(!(crypto.subtle && crypto.subtle.verify)){
+    banner.className="banner bad";
+    banner.innerHTML = `<div class="big">⚠️ This browser can't run the check</div>
+      <div class="sub">Please open in an up-to-date Chrome, Safari, Firefox or Edge,
+      or verify from the command line with <code>verify.py</code>.</div>`;
+    return;
+  }
+
+  let index, pubkey;
+  try{
+    index = await getJSON("index.json");
+    pubkey = await crypto.subtle.importKey("spki", pemToDer(index.public_key_pem),
+      {name:"Ed25519"}, false, ["verify"]);
+  }catch(err){
+    banner.className="banner bad";
+    banner.innerHTML = `<div class="big">⚠️ Couldn't load the record</div>
+      <div class="sub">${err} — the key or index may be unavailable, or your browser
+      lacks Ed25519 support. Try the <code>verify.py</code> route.</div>`;
+    return;
+  }
+
+  let prev = "GENESIS", passed = 0, failed = 0, computedHead = "GENESIS";
+  const results = [];
+  for(const entry of index.days){
+    const r = await verifyDay(pubkey, entry, prev);
+    results.push(r); prev = r.chain; computedHead = r.chain;
+    r.ok ? passed++ : failed++;
+  }
+  // newest first
+  for(const r of results.reverse()) daysEl.append(r.box);
+
+  const headOk = computedHead === index.head;
+  const good = failed===0 && headOk;
+  banner.className = "banner " + (good ? "ok":"bad");
+  banner.innerHTML =
+    `<div class="big">${good ? "✅" : "❌"} ${passed} of ${index.days.length} days verified${failed?` · ${failed} failed`:""}</div>`+
+    `<div class="sub">Chain head <span class="head-hash">${computedHead.slice(0,16)}…</span> `+
+    `${headOk ? "matches the record" : "DOES NOT match — history may have been tampered with"}. `+
+    `This head covers the entire history and is pinned in the Telegram bio.</div>`;
+}
+main();
+</script>
+</body>
+</html>

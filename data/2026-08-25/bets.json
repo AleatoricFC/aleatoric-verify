@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-08-25",
+    "fixture_id": 1570342,
+    "league_name": "La Liga",
+    "home_team_name": "Valencia",
+    "away_team_name": "Real Betis",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.94,
+    "size": 19.88,
+    "predicted_proba_home": 0.41685938835144043,
+    "predicted_proba_draw": 0.29778605699539185,
+    "predicted_proba_away": 0.28535452485084534
+  }
+]
