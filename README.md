@@ -6,7 +6,7 @@ Telegram channel.
 
 ## ✅ Verify in one tap (no install)
 
-**→ https://eyuelpersonal.github.io/aleatoric-verify/**
+**→ https://aleatoricfc.github.io/aleatoric-verify/**
 
 Open the page. It checks every signature **live, in your browser** — nothing to
 download, works on a phone. A green banner means every bet was signed before the
@@ -41,7 +41,7 @@ HEAD  b9fce3ef31bab06d0d205778294773620e7899bf0cb6e3ce63b0fd6c233e71d9
 Trust nothing but the pinned public key:
 
 ```bash
-git clone https://github.com/EyuelPersonal/aleatoric-verify
+git clone https://github.com/AleatoricFC/aleatoric-verify
 cd REPO
 pip install cryptography
 python verify.py            # all days + the chain head
