@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-08-23",
+    "league_name": "Premier League",
+    "home_team_name": "Newcastle",
+    "away_team_name": "Liverpool",
+    "market": "H/D/A",
+    "result": "draw"
+  },
+  {
+    "date": "2026-08-23",
+    "league_name": "Serie A",
+    "home_team_name": "Torino",
+    "away_team_name": "AC Milan",
+    "market": "H/D/A",
+    "result": "away"
+  }
+]
