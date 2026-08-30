@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-08-16",
+    "league_name": "Primeira Liga",
+    "home_team_name": "Nacional",
+    "away_team_name": "Estoril",
+    "market": "H/D/A",
+    "result": "home"
+  },
+  {
+    "date": "2026-08-16",
+    "league_name": "Serie A",
+    "home_team_name": "Vasco DA Gama",
+    "away_team_name": "Santos",
+    "market": "H/D/A",
+    "result": "away"
+  }
+]
