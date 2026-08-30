@@ -73,9 +73,16 @@ def main():
 
     if args.push:
         _git("add", "-A")
-        _git("commit", "-m", msg)
-        _git("push")
-        print("pushed.")
+        dirty = subprocess.run(
+            ["git", "-C", str(ROOT), "status", "--porcelain"],
+            capture_output=True, text=True,
+        ).stdout.strip()
+        if dirty:
+            _git("commit", "-m", msg)
+            _git("push")
+            print("pushed.")
+        else:
+            print("no changes — nothing to push.")
     else:
         print("run with --push to commit and push.")
     print(f"\nHEAD to pin in Telegram bio:\n  {index['head']}")
