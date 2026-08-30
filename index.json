@@ -83,9 +83,9 @@
       "prev": "1193dfd934045360d8bfc405eb99c3ae1d19a231db1f70508bb6784534690452",
       "chain": "58e5174f429675aeda44ee502842bce03bd69aebea9a299451602849bf1e9fa6",
       "results_present": true,
-      "results_sha256": "fee9fbcf1df7360b03cfface56bd2e63d5d7a21dc00f1482c534d3b6cd24a1a4",
-      "results_timestamp": "2026-08-30T15:43:54.829017+00:00",
-      "results_signature": "wiRE5FaMq8VfNRGlrI4uSIxYt+FCGIWTEMNYpMYNlP6bZF1pcItu1worOyLzzu1322IaF3OBiBjtnUVR5HHbAA=="
+      "results_sha256": "744f1120deb6b47a17f629a0513b731b0789fbed326629cb29b30918be18fd16",
+      "results_timestamp": "2026-08-30T19:03:01.475035+00:00",
+      "results_signature": "825KWtZqJGz3AB36UCRVMpdUrAp0SQCMO8zho3/yOBWu92sM1c8/NdBVMOhwZagbGDrYQf0ejMraHvDyjFHQBQ=="
     },
     {
       "date": "2026-08-29",

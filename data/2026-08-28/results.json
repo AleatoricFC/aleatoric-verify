@@ -5,7 +5,17 @@
     "home_team_name": "Bayern M\u00fcnchen",
     "away_team_name": "VfB Stuttgart",
     "market": "H/D/A",
-    "result": "home"
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-08-28",
+    "league_name": "Bundesliga",
+    "home_team_name": "Bayern M\u00fcnchen",
+    "away_team_name": "VfB Stuttgart",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
   },
   {
     "date": "2026-08-28",
@@ -13,7 +23,17 @@
     "home_team_name": "Crystal Palace",
     "away_team_name": "Manchester City",
     "market": "H/D/A",
-    "result": "away"
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-08-28",
+    "league_name": "Premier League",
+    "home_team_name": "Crystal Palace",
+    "away_team_name": "Manchester City",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
   },
   {
     "date": "2026-08-28",
@@ -21,6 +41,16 @@
     "home_team_name": "Rio Ave",
     "away_team_name": "Sporting CP",
     "market": "H/D/A",
-    "result": "away"
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-08-28",
+    "league_name": "Primeira Liga",
+    "home_team_name": "Rio Ave",
+    "away_team_name": "Sporting CP",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
   }
 ]
