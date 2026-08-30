@@ -3,7 +3,7 @@
 Publish a day to the public record, mirroring the Telegram timing so the repo
 keeps the same "committed before kick-off" guarantee.
 
-Two phases per day:
+Phases per day:
 
     # on bet day — publish the redacted manifest + the signature (NOT the bets)
     python add_day.py commit --date 2026-08-31
@@ -11,12 +11,17 @@ Two phases per day:
     # the following day — reveal the full bets
     python add_day.py reveal --date 2026-08-31
 
-Both phases rebuild index.json (the hash chain) and, with --push, commit and push.
-Source files are read from the betting_service working dir by default.
+    # once matches settle — publish the signed public match results (separate layer)
+    python add_day.py results --date 2026-08-31
 
-    bet_manifest_YYYYMMDD.json  ->  data/YYYY-MM-DD/manifest.json
-    bets_YYYYMMDD.sig.json      ->  data/YYYY-MM-DD/bets.sig.json
-    bets_YYYYMMDD.json          ->  data/YYYY-MM-DD/bets.json   (reveal only)
+All phases rebuild index.json and, with --push, commit and push. Source files are read
+from the betting_service working dir by default.
+
+    bet_manifest_YYYYMMDD.json  ->  data/YYYY-MM-DD/manifest.json    (commit)
+    bets_YYYYMMDD.sig.json      ->  data/YYYY-MM-DD/bets.sig.json     (commit)
+    bets_YYYYMMDD.json          ->  data/YYYY-MM-DD/bets.json         (reveal)
+    results_YYYYMMDD.json       ->  data/YYYY-MM-DD/results.json      (results)
+    results_YYYYMMDD.sig.json   ->  data/YYYY-MM-DD/results.sig.json  (results)
 """
 import argparse
 import shutil
@@ -44,7 +49,7 @@ def _git(*args):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("phase", choices=["commit", "reveal"])
+    ap.add_argument("phase", choices=["commit", "reveal", "results"])
     ap.add_argument("--date", required=True, help="YYYY-MM-DD")
     ap.add_argument("--from", dest="src", default=str(DEFAULT_SRC), help="source dir")
     ap.add_argument("--push", action="store_true", help="git commit + push after")
@@ -59,11 +64,17 @@ def main():
         _copy(src / f"bet_manifest_{compact}.json", day / "manifest.json")
         _copy(src / f"bets_{compact}.sig.json", day / "bets.sig.json")
         msg = f"commit {iso}: manifest + signature (bets locked, revealed tomorrow)"
-    else:
+    elif args.phase == "reveal":
         if not (day / "bets.sig.json").exists():
             sys.exit(f"{iso} was never committed — run `commit` first")
         _copy(src / f"bets_{compact}.json", day / "bets.json")
         msg = f"reveal {iso}: full bets"
+    else:  # results
+        if not (day / "bets.sig.json").exists():
+            sys.exit(f"{iso} was never committed — run `commit` first")
+        _copy(src / f"results_{compact}.json", day / "results.json")
+        _copy(src / f"results_{compact}.sig.json", day / "results.sig.json")
+        msg = f"results {iso}: signed public match outcomes"
 
     index = build_index.build()
     (ROOT / "index.json").write_text(

@@ -11,7 +11,8 @@
       "signature": "XoUIz1st7QyxLIgtJoJQMc3NrcHMctqOUpg+nKKP/rtY82t/a0R2VbW0cqrW+PKgipemwPmbrBLMZcSgeiRQBQ==",
       "bets_present": true,
       "prev": "GENESIS",
-      "chain": "49d8431c6c4e10157aa113ad3f77a42fd3859744644c96f592eea0e52847672f"
+      "chain": "49d8431c6c4e10157aa113ad3f77a42fd3859744644c96f592eea0e52847672f",
+      "results_present": false
     },
     {
       "date": "2026-08-16",
@@ -21,7 +22,8 @@
       "signature": "5ruMM4Qfaje6M/rhcCkBx5Ygnl2ZMplM8568fk4VLW9CwlQlxYZ0MaTdNKFGxE44WLecy8ZH8AXk0q3D+y0qCQ==",
       "bets_present": true,
       "prev": "49d8431c6c4e10157aa113ad3f77a42fd3859744644c96f592eea0e52847672f",
-      "chain": "12b4884cf528d674a17051ac5caccdd28caeee46be91db8e739f86141924e257"
+      "chain": "12b4884cf528d674a17051ac5caccdd28caeee46be91db8e739f86141924e257",
+      "results_present": false
     },
     {
       "date": "2026-08-22",
@@ -31,7 +33,8 @@
       "signature": "J21QwaQ9WElehDuPO2tjxbWj6OibDKadUCNoP71x/kWFpyutzJUHsp8WlPnIVwhTVtWOsDzoF1/gyZJvwRGGDA==",
       "bets_present": true,
       "prev": "12b4884cf528d674a17051ac5caccdd28caeee46be91db8e739f86141924e257",
-      "chain": "07839653655d2a409abdbc9a26bf657afe0639a84cf19d8437c3cd241ee757a4"
+      "chain": "07839653655d2a409abdbc9a26bf657afe0639a84cf19d8437c3cd241ee757a4",
+      "results_present": false
     },
     {
       "date": "2026-08-23",
@@ -41,7 +44,8 @@
       "signature": "tqSjWmBobMhXYR+eTTk+RcLqUFKFPqXJd+E4msJa3HRNpqnBGm2pHeZWGPue0m5sWnNaxBQH7D0FSW8QIvP0BA==",
       "bets_present": true,
       "prev": "07839653655d2a409abdbc9a26bf657afe0639a84cf19d8437c3cd241ee757a4",
-      "chain": "e91d903a1418a9c692442161f84c25b9b5f2d5aa9aafaff03dc82531fe994549"
+      "chain": "e91d903a1418a9c692442161f84c25b9b5f2d5aa9aafaff03dc82531fe994549",
+      "results_present": false
     },
     {
       "date": "2026-08-25",
@@ -51,7 +55,8 @@
       "signature": "PyOTJ7fUNrzRkSf9GepLUYgrQVyv3rfZjzqeGWhzeMre9HyNT9n9lBRipld/OAtSiJ4Nljm6JSQAba1cS5DTCg==",
       "bets_present": true,
       "prev": "e91d903a1418a9c692442161f84c25b9b5f2d5aa9aafaff03dc82531fe994549",
-      "chain": "1193dfd934045360d8bfc405eb99c3ae1d19a231db1f70508bb6784534690452"
+      "chain": "1193dfd934045360d8bfc405eb99c3ae1d19a231db1f70508bb6784534690452",
+      "results_present": false
     },
     {
       "date": "2026-08-28",
@@ -61,7 +66,8 @@
       "signature": "atgA+374LOdyfhjorwaAD+MP+/lB47shj2JeWx2Talvu+hCM1zKamSv7fx1xIqwzWA8kJCJww2LwXAWZgEWEBA==",
       "bets_present": true,
       "prev": "1193dfd934045360d8bfc405eb99c3ae1d19a231db1f70508bb6784534690452",
-      "chain": "58e5174f429675aeda44ee502842bce03bd69aebea9a299451602849bf1e9fa6"
+      "chain": "58e5174f429675aeda44ee502842bce03bd69aebea9a299451602849bf1e9fa6",
+      "results_present": false
     },
     {
       "date": "2026-08-29",
@@ -71,7 +77,8 @@
       "signature": "aHFiwaBLnI21bCJVl+aRYlySGZRyf7aPfdo8S2uYsDKLlUroE44OXa0K1urv5fP4AtiHU0Zn3w4Kz7Ke5g2VBQ==",
       "bets_present": true,
       "prev": "58e5174f429675aeda44ee502842bce03bd69aebea9a299451602849bf1e9fa6",
-      "chain": "02c9f1fb2e4c4cb5cd51d73e19954aee15b5db498ae8ad853dce0bfd40ea724f"
+      "chain": "02c9f1fb2e4c4cb5cd51d73e19954aee15b5db498ae8ad853dce0bfd40ea724f",
+      "results_present": false
     },
     {
       "date": "2026-08-30",
@@ -81,7 +88,8 @@
       "signature": "46ULfrGUlzjFqjUVoTOTGqeisHg1mN2GJT2ZLZN7HPZTneyM+20MM4GT7UVCFdjzmBksN0DA9ew8nSrHhKdHCA==",
       "bets_present": false,
       "prev": "02c9f1fb2e4c4cb5cd51d73e19954aee15b5db498ae8ad853dce0bfd40ea724f",
-      "chain": "b9fce3ef31bab06d0d205778294773620e7899bf0cb6e3ce63b0fd6c233e71d9"
+      "chain": "b9fce3ef31bab06d0d205778294773620e7899bf0cb6e3ce63b0fd6c233e71d9",
+      "results_present": false
     }
   ]
 }

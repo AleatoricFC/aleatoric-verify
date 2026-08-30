@@ -55,18 +55,42 @@ def build() -> dict:
                 )
 
         chain = _chain_hash(prev, date, manifest_sha, sig["sha256"], sig["signature"])
-        days.append(
-            {
-                "date": date,
-                "timestamp": sig["timestamp"],
-                "manifest_sha256": manifest_sha,
-                "bets_sha256": sig["sha256"],
-                "signature": sig["signature"],
-                "bets_present": bets_present,
-                "prev": prev,
-                "chain": chain,
-            }
-        )
+        entry = {
+            "date": date,
+            "timestamp": sig["timestamp"],
+            "manifest_sha256": manifest_sha,
+            "bets_sha256": sig["sha256"],
+            "signature": sig["signature"],
+            "bets_present": bets_present,
+            "prev": prev,
+            "chain": chain,
+        }
+
+        # Results are a SEPARATE signed layer, published as fixtures settle. They are
+        # deliberately NOT folded into the chain: the chain must only ever cover the
+        # before-kick-off commitment, so adding results later can never look like a
+        # rewrite of history. The page verifies the results signature independently.
+        results_path = day_dir / "results.json"
+        if results_path.exists():
+            results_sig_path = day_dir / "results.sig.json"
+            if not results_sig_path.exists():
+                raise SystemExit(f"{date}: results.json present but results.sig.json missing")
+            rsig = json.loads(results_sig_path.read_text())
+            ractual = _sha256_hex(results_path.read_bytes())
+            if ractual != rsig["sha256"]:
+                raise SystemExit(
+                    f"{date}: results.json SHA-256 does not match results.sig.json — file was altered."
+                )
+            entry.update(
+                results_present=True,
+                results_sha256=rsig["sha256"],
+                results_timestamp=rsig["timestamp"],
+                results_signature=rsig["signature"],
+            )
+        else:
+            entry["results_present"] = False
+
+        days.append(entry)
         prev = chain
 
     # No wall-clock field here on purpose: the index must be a deterministic function

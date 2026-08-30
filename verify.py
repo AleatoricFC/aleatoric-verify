@@ -7,15 +7,18 @@ in your browser. This script is for anyone who wants to confirm everything from
 scratch, offline, trusting nothing but the pinned public key.
 
     pip install cryptography
-    python verify.py                 # verify every day + the whole chain
+    python verify.py                 # verify every day + the whole chain + the ROI
     python verify.py 2026-08-30      # verify a single day
 
 It checks, for each day:
-  1. the Ed25519 signature over {sha256, timestamp}  (locked by the private key)
+  1. the Ed25519 signature over {sha256, timestamp}  (bets locked by the private key)
   2. the revealed bets.json hashes to exactly what was signed  (unaltered)
   3. the revealed bets cover exactly the pre-committed manifest fixtures
   4. the day links to the previous one  (append-only chain)
-and that the final chain head matches the value pinned in the Telegram bio.
+  5. if published: the match results are signed & unaltered (a separate layer), and
+     the day's profit is recomputed from the signed bets + those public results.
+Then it confirms the final chain head matches the value pinned in the Telegram bio,
+and prints the overall ROI — the same number the web page shows.
 """
 import sys
 import json
@@ -40,11 +43,21 @@ def fixtures(entries):
     return {(e["date"], e["home_team_name"], e["away_team_name"], e["market"]) for e in entries}
 
 
+def fixture_key(e):
+    return (e["date"], e["home_team_name"], e["away_team_name"], e["market"])
+
+
 def chain_hash(prev, date, m_sha, b_sha, sig):
     return hashlib.sha256("|".join([prev, date, m_sha, b_sha, sig]).encode()).hexdigest()
 
 
+def _verify_sig(pub, signature, sha, timestamp):
+    payload = json.dumps({"sha256": sha, "timestamp": timestamp}, sort_keys=True).encode()
+    pub.verify(base64.b64decode(signature), payload)
+
+
 def verify_day(pub, entry, prev):
+    """Returns (failures, chain_link, day_pnl_or_None, day_staked_or_None, won, settled)."""
     d = entry["date"]
     day = ROOT / "data" / d
     failures = 0
@@ -53,10 +66,8 @@ def verify_day(pub, entry, prev):
     manifest_bytes = (day / "manifest.json").read_bytes()
     manifest = json.loads(manifest_bytes)
 
-    payload = json.dumps({"sha256": entry["bets_sha256"], "timestamp": entry["timestamp"]},
-                         sort_keys=True).encode()
     try:
-        pub.verify(base64.b64decode(entry["signature"]), payload)
+        _verify_sig(pub, entry["signature"], entry["bets_sha256"], entry["timestamp"])
         ok(f"signature valid — locked {entry['timestamp']}")
     except InvalidSignature:
         bad("signature invalid"); failures += 1
@@ -72,6 +83,7 @@ def verify_day(pub, entry, prev):
     else:
         bad("chain link broken — history altered"); failures += 1
 
+    bets = None
     bets_path = day / "bets.json"
     if entry["bets_present"] and bets_path.exists():
         bets_bytes = bets_path.read_bytes()
@@ -87,7 +99,39 @@ def verify_day(pub, entry, prev):
     else:
         wait("full bets not yet revealed (publishes next day)")
 
-    return failures, link
+    # Results — separate signed layer, not part of the chain.
+    day_pnl = day_staked = won = settled = None
+    if entry.get("results_present"):
+        results_bytes = (day / "results.json").read_bytes()
+        results = json.loads(results_bytes)
+        results_ok = True
+        try:
+            _verify_sig(pub, entry["results_signature"], entry["results_sha256"], entry["results_timestamp"])
+        except InvalidSignature:
+            bad("results signature invalid"); failures += 1; results_ok = False
+        if hashlib.sha256(results_bytes).hexdigest() != entry["results_sha256"]:
+            bad("results.json altered since signing"); failures += 1; results_ok = False
+        if results_ok:
+            ok(f"match results signed & unaltered ({len(results)} settled)")
+        if bets is not None and results_ok:
+            rmap = {fixture_key(r): r["result"] for r in results}
+            day_pnl = day_staked = 0.0; won = settled = 0
+            for b in bets:
+                res = rmap.get(fixture_key(b))
+                if res is None:
+                    continue
+                settled += 1; day_staked += b["size"]
+                win = b["outcome"] == res
+                won += 1 if win else 0
+                day_pnl += b["size"] * (b["price"] - 1) if win else -b["size"]
+            if settled:
+                roi = day_pnl / day_staked
+                ok(f"day P&L from signed bets + results: {day_pnl:+.2f} on {day_staked:.2f} "
+                   f"staked ({roi*100:+.1f}%)")
+    elif entry["bets_present"]:
+        wait("results not yet published (matches unsettled)")
+
+    return failures, link, day_pnl, day_staked, won, settled
 
 
 def main():
@@ -97,17 +141,27 @@ def main():
     only = sys.argv[1] if len(sys.argv) > 1 else None
     total_fail = 0
     prev = GENESIS
+    cum_pnl = cum_staked = cum_won = cum_settled = 0.0
     for entry in index["days"]:
-        f, prev = verify_day(pub, entry, prev) if (only is None or entry["date"] == only) \
-            else (0, chain_hash(prev, entry["date"], entry["manifest_sha256"],
-                                entry["bets_sha256"], entry["signature"]))
-        total_fail += f
+        if only is None or entry["date"] == only:
+            f, prev, pnl, staked, won, settled = verify_day(pub, entry, prev)
+            total_fail += f
+            if pnl is not None:
+                cum_pnl += pnl; cum_staked += staked; cum_won += won; cum_settled += settled
+        else:
+            prev = chain_hash(prev, entry["date"], entry["manifest_sha256"],
+                              entry["bets_sha256"], entry["signature"])
 
     print("\n── chain head ─────────────────────────────────────")
     if prev == index["head"]:
         ok(f"head {prev[:16]}… matches — full history intact")
     else:
         bad("computed head does not match index — tampering"); total_fail += 1
+
+    if cum_staked > 0:
+        print("\n── the claim (recomputed) ─────────────────────────")
+        ok(f"ROI {cum_pnl/cum_staked*100:+.1f}%  ·  net {cum_pnl:+.2f} on {cum_staked:.2f} staked  "
+           f"·  {int(cum_won)}/{int(cum_settled)} won")
 
     print()
     if total_fail == 0:

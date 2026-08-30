@@ -20,25 +20,43 @@
     -webkit-text-size-adjust:100%}
   .wrap{max-width:760px;margin:0 auto;padding:24px 16px 64px}
   header h1{font-size:1.5rem;margin:0 0 4px}
-  header p{color:var(--mut);margin:0 0 20px}
+  header p{color:var(--mut);margin:0 0 8px}
   a{color:var(--accent)}
-  .banner{border-radius:14px;padding:18px 20px;margin:0 0 20px;border:1px solid var(--line)}
+  h2.section{font-size:1.05rem;letter-spacing:.02em;text-transform:uppercase;
+    color:var(--mut);margin:30px 0 12px;font-weight:700}
+  /* claim card */
+  .claim{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 22px}
+  .claim.good{border-color:var(--ok)}
+  .claim .roi{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+  .claim .roi .big{font-size:2.8rem;font-weight:750;line-height:1}
+  .claim .roi .lbl{color:var(--mut);font-size:.9rem}
+  .delta{font-size:.9rem;font-weight:650;padding:4px 10px;border-radius:999px;white-space:nowrap}
+  .delta.up{background:var(--okbg);color:var(--ok)}
+  .delta.down{background:var(--badbg);color:var(--bad)}
+  .delta.flat{background:var(--waitbg);color:var(--wait)}
+  .claim .row{margin-top:14px;color:var(--mut);font-size:.9rem}
+  .claim .row b{color:var(--fg)}
+  .claim .note{margin-top:12px;font-size:.82rem;color:var(--mut);border-top:1px solid var(--line);padding-top:10px}
+  .claim .pending{color:var(--wait)}
+  /* verification */
+  .banner{border-radius:14px;padding:16px 18px;margin:0 0 16px;border:1px solid var(--line)}
   .banner.ok{background:var(--okbg);border-color:var(--ok)}
   .banner.bad{background:var(--badbg);border-color:var(--bad)}
-  .banner .big{font-size:1.15rem;font-weight:650;display:flex;align-items:center;gap:10px}
-  .banner .sub{color:var(--mut);font-size:.9rem;margin-top:6px;word-break:break-all}
+  .banner .big{font-size:1.1rem;font-weight:650;display:flex;align-items:center;gap:10px}
+  .banner .sub{color:var(--mut);font-size:.9rem;margin-top:6px;word-break:break-word}
   .head-hash{font-family:var(--mono);font-size:.82rem}
-  .day{background:var(--card);border:1px solid var(--line);border-radius:14px;
-    margin:0 0 14px;overflow:hidden}
-  .day summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;
-    align-items:center;gap:12px;justify-content:space-between}
+  .day{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:0 0 14px;overflow:hidden}
+  .day summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;align-items:center;gap:12px;justify-content:space-between}
   .day summary::-webkit-details-marker{display:none}
   .day .date{font-weight:650}
   .day .when{color:var(--mut);font-size:.82rem;font-family:var(--mono)}
+  .pills{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
   .pill{font-size:.78rem;font-weight:650;padding:4px 10px;border-radius:999px;white-space:nowrap}
   .pill.ok{background:var(--okbg);color:var(--ok)}
   .pill.bad{background:var(--badbg);color:var(--bad)}
   .pill.wait{background:var(--waitbg);color:var(--wait)}
+  .pill.pl-pos{background:var(--okbg);color:var(--ok)}
+  .pill.pl-neg{background:var(--badbg);color:var(--bad)}
   .checks{border-top:1px solid var(--line);padding:14px 18px}
   .check{display:flex;gap:10px;padding:5px 0;font-size:.92rem;align-items:flex-start}
   .check .mark{flex:0 0 1.2em}
@@ -46,10 +64,11 @@
   .fixtures{margin:12px 0 2px;border-top:1px dashed var(--line);padding-top:12px}
   .fx{display:flex;justify-content:space-between;gap:10px;padding:4px 0;font-size:.9rem;flex-wrap:wrap}
   .fx .lg{color:var(--mut);font-size:.8rem}
+  .fx .res{font-size:.8rem;font-weight:650}
+  .fx .res.win{color:var(--ok)} .fx .res.lose{color:var(--bad)} .fx .res.pend{color:var(--wait)}
   .stat{display:inline-block;margin:2px 14px 2px 0;color:var(--mut);font-size:.85rem}
   .stat b{color:var(--fg)}
-  code{font-family:var(--mono);font-size:.85em;background:rgba(128,128,128,.14);
-    padding:1px 5px;border-radius:5px;word-break:break-all}
+  code{font-family:var(--mono);font-size:.85em;background:rgba(128,128,128,.14);padding:1px 5px;border-radius:5px;word-break:break-all}
   footer{color:var(--mut);font-size:.85rem;margin-top:30px;border-top:1px solid var(--line);padding-top:16px}
   .spin{color:var(--mut)}
 </style>
@@ -59,60 +78,63 @@
   <header>
     <h1>AleatoricFC — Proof of Bets</h1>
     <p>Every bet is cryptographically locked <b>before kick-off</b> and published here.
-       This page checks the signatures live, in your browser. Nothing to install.</p>
+       This page verifies the signatures live, in your browser, and computes the record
+       from that verified data. Nothing to install.</p>
   </header>
 
+  <h2 class="section">My Claim</h2>
+  <div id="claim" class="claim"><span class="spin">Computing from verified data…</span></div>
+
+  <h2 class="section">The Proof</h2>
   <div id="banner" class="banner"><div class="big"><span class="spin">Verifying…</span></div></div>
   <div id="days"></div>
 
   <footer>
-    <p><b>What this proves.</b> Each day, the full bet list (outcome, price, stake) is hashed and
-    signed with a private key the moment it's placed — then the signature is posted publicly, before
-    any match starts. The next day the full bets are revealed. Because the signature only matches the
-    exact bets that were locked in, they can't be edited, cherry-picked, or backdated after results
-    come in.</p>
-    <p><b>The chain.</b> Every day links to the previous one. The single <em>head</em> hash below covers
-    the entire history — if any past day were changed, added, or removed, the head would change.
-    The current head is pinned in the Telegram channel bio.</p>
-    <p>Prefer to check it yourself from scratch? Clone the
-      <a id="repolink" href="#">repository</a> and run <code>python verify.py</code> — it does the same
-      checks offline with only <code>pip install cryptography</code>.</p>
+    <p><b>The claim is computed, not asserted.</b> The ROI above isn't a number I type in —
+    the page derives it from my <em>signed</em> bets (stake &amp; price, locked before kick-off)
+    and the <em>published match results</em> (home/draw/away — a public fact you can check on any
+    football site). Win → <code>stake × (price − 1)</code>, loss → <code>− stake</code>,
+    ROI = total profit ÷ total staked. Anyone can recompute it from the files below.</p>
+    <p><b>What the signatures prove.</b> Each day the full bet list is hashed and signed the
+    moment it's placed, and the signature is posted before any match starts. The next day the
+    full bets are revealed; they must hash to what was signed. Results are published as they
+    settle — a separate signed layer, never mixed into the commitment.</p>
+    <p><b>The chain.</b> Every day links to the previous one; a single head hash covers the whole
+    history. Prefer to check from scratch? Clone the
+    <a id="repolink" href="#">repository</a> and run <code>python verify.py</code>.</p>
   </footer>
 </div>
 
 <script>
-// ---- config -----------------------------------------------------------------
-const REPO_URL = "https://github.com/AleatoricFC/aleatoric-verify";   // filled in at push time
-// -----------------------------------------------------------------------------
-
+const REPO_URL = "https://github.com/AleatoricFC/aleatoric-verify";
 document.getElementById("repolink").href = REPO_URL;
 
 const $ = (t, c, txt) => { const e = document.createElement(t); if(c) e.className=c; if(txt!=null) e.textContent=txt; return e; };
 const hex = buf => [...new Uint8Array(buf)].map(b=>b.toString(16).padStart(2,"0")).join("");
 async function sha256hex(bytes){ return hex(await crypto.subtle.digest("SHA-256", bytes)); }
-
 function pemToDer(pem){
   const b64 = pem.replace(/-----[^-]+-----/g,"").replace(/\s+/g,"");
   const bin = atob(b64); const u = new Uint8Array(bin.length);
-  for(let i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i);
-  return u;
+  for(let i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i); return u;
 }
 function b64ToBytes(b64){
   const bin = atob(b64); const u = new Uint8Array(bin.length);
   for(let i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i); return u;
 }
-// Reproduce Python: json.dumps({"sha256":..,"timestamp":..}, sort_keys=True)
-// -> byte-for-byte, including the ", " and ": " separators.
+// Reproduce Python json.dumps({"sha256":..,"timestamp":..}, sort_keys=True), byte-for-byte.
 function signedPayload(sha, ts){
   return new TextEncoder().encode(`{"sha256": ${JSON.stringify(sha)}, "timestamp": ${JSON.stringify(ts)}}`);
 }
-async function sha256Concat(str){ // for the chain link
-  return sha256hex(new TextEncoder().encode(str));
-}
+async function sha256Concat(str){ return sha256hex(new TextEncoder().encode(str)); }
 const fixtureKey = e => `${e.date}|${e.home_team_name}|${e.away_team_name}|${e.market}`;
+const eur = n => (n<0?"−€":"€") + Math.abs(n).toFixed(2);
+const pct = n => (n>=0?"+":"−") + Math.abs(n*100).toFixed(1) + "%";
 
 async function getJSON(url){ const r = await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(r.status); return r.json(); }
 async function getBytes(url){ const r = await fetch(url,{cache:"no-store"}); if(!r.ok){ const e=new Error(r.status); e.status=r.status; throw e; } return new Uint8Array(await r.arrayBuffer()); }
+async function verifySig(pubkey, sig_b64, sha, ts){
+  return crypto.subtle.verify({name:"Ed25519"}, pubkey, b64ToBytes(sig_b64), signedPayload(sha, ts));
+}
 
 function check(list, ok, text, muted){
   const row = $("div","check");
@@ -128,49 +150,40 @@ async function verifyDay(pubkey, entry, prevChain){
   const sum = $("summary");
   const left = $("div"); left.append($("div","date", entry.date));
   left.append($("div","when", new Date(entry.timestamp).toUTCString()));
-  const pill = $("span","pill");
-  sum.append(left, pill); box.append(sum);
+  const pills = $("div","pills"); sum.append(left, pills); box.append(sum);
   const checks = $("div","checks"); box.append(checks);
 
-  let allOk = true, revealed = entry.bets_present;
+  let allOk = true;
+  const revealed = entry.bets_present;
+  const out = { box, ok:true, chain:entry.chain, date:entry.date, roi:null };
+
   try{
     const manifestBytes = await getBytes(`${dir}/manifest.json`);
     const manifest = JSON.parse(new TextDecoder().decode(manifestBytes));
 
-    // 1. signature over {sha256,timestamp} — proves it was locked by the key
-    const sigOk = await crypto.subtle.verify(
-      {name:"Ed25519"}, pubkey,
-      b64ToBytes(entry.signature),
-      signedPayload(entry.bets_sha256, entry.timestamp)
-    );
+    const sigOk = await verifySig(pubkey, entry.signature, entry.bets_sha256, entry.timestamp);
     allOk &&= sigOk;
     check(checks, sigOk, "Signature valid — bets were locked with the private key",
       `signed ${new Date(entry.timestamp).toUTCString()}`);
 
-    // 2. manifest integrity vs index
-    const mSha = await sha256hex(manifestBytes);
-    const mOk = mSha === entry.manifest_sha256;
+    const mOk = (await sha256hex(manifestBytes)) === entry.manifest_sha256;
     allOk &&= mOk;
     check(checks, mOk, "Public manifest matches the record");
 
-    // 3. chain link — append-only history
     const link = await sha256Concat([prevChain, entry.date, entry.manifest_sha256, entry.bets_sha256, entry.signature].join("|"));
     const cOk = link === entry.chain;
     allOk &&= cOk;
     check(checks, cOk, "Chain link intact (connects to the previous day)");
 
-    // 4. if revealed: full bets hash matches the signature + fixtures match manifest
     let bets = null;
     if(revealed){
       const betsBytes = await getBytes(`${dir}/bets.json`);
       bets = JSON.parse(new TextDecoder().decode(betsBytes));
-      const bSha = await sha256hex(betsBytes);
-      const bOk = bSha === entry.bets_sha256;
+      const bOk = (await sha256hex(betsBytes)) === entry.bets_sha256;
       allOk &&= bOk;
       check(checks, bOk, "Revealed bets match the signature exactly (unaltered)");
 
-      const mSet = new Set(manifest.map(fixtureKey));
-      const bSet = new Set(bets.map(fixtureKey));
+      const mSet = new Set(manifest.map(fixtureKey)), bSet = new Set(bets.map(fixtureKey));
       const same = mSet.size===bSet.size && [...mSet].every(k=>bSet.has(k));
       allOk &&= same;
       check(checks, same, "Revealed bets cover exactly the pre-committed fixtures");
@@ -178,15 +191,52 @@ async function verifyDay(pubkey, entry, prevChain){
       check(checks, null, "Full bets not yet revealed — signature is committed, detail publishes next day");
     }
 
-    // fixtures + stats
+    // Results — separate signed layer, NOT part of the chain.
+    let resultsMap = null;
+    if(entry.results_present){
+      const resBytes = await getBytes(`${dir}/results.json`);
+      const results = JSON.parse(new TextDecoder().decode(resBytes));
+      const rShaOk = (await sha256hex(resBytes)) === entry.results_sha256;
+      const rSigOk = await verifySig(pubkey, entry.results_signature, entry.results_sha256, entry.results_timestamp);
+      allOk &&= (rShaOk && rSigOk);
+      check(checks, rShaOk && rSigOk, "Match results published & signed (public outcomes)",
+        `signed ${new Date(entry.results_timestamp).toUTCString()}`);
+      resultsMap = {};
+      for(const r of results) resultsMap[fixtureKey(r)] = r.result;
+    }
+
+    // Per-day P&L from signed bets + verified results (published-terms ROI).
+    if(revealed && resultsMap){
+      let staked=0, profit=0, won=0, settled=0;
+      for(const b of bets){
+        const res = resultsMap[fixtureKey(b)];
+        if(res == null) continue;               // leg still pending
+        settled++; staked += b.size;
+        const win = b.outcome === res;
+        won += win ? 1 : 0;
+        profit += win ? b.size*(b.price-1) : -b.size;
+      }
+      if(settled>0){
+        out.roi = { staked, profit, won, settled, legs: bets.length };
+        const dayRoi = profit/staked;
+        check(checks, true, `Day P&L computed from signed bets + results: ${eur(profit)} on ${eur(staked)} staked (${pct(dayRoi)})`);
+      }
+    }
+
+    // Fixtures list (+ result badges when settled)
     const list = revealed ? bets : manifest;
-    const fx = $("div","fixtures");
-    const seen = new Set();
+    const fx = $("div","fixtures"); const seen = new Set();
     for(const e of list){
       const k = fixtureKey(e); if(seen.has(k)) continue; seen.add(k);
       const row = $("div","fx");
       const l = $("div"); l.append($("div",null,`${e.home_team_name} vs ${e.away_team_name}`));
       l.append($("div","lg", `${e.league_name} · ${e.market}`)); row.append(l);
+      if(revealed && resultsMap){
+        const res = resultsMap[fixtureKey(e)];
+        const badge = $("div","res " + (res==null ? "pend" : (e.outcome===res ? "win":"lose")));
+        badge.textContent = res==null ? "pending" : (e.outcome===res ? `✓ ${res}` : `✗ ${res}`);
+        row.append(badge);
+      }
       fx.append(row);
     }
     checks.append(fx);
@@ -199,16 +249,57 @@ async function verifyDay(pubkey, entry, prevChain){
       checks.append(stats);
     }
 
-    pill.className = "pill " + (allOk ? "ok" : "bad");
-    pill.textContent = allOk ? (revealed ? "Verified" : "Committed") : "FAILED";
+    // pills
+    const statusPill = $("span","pill " + (allOk ? "ok":"bad"));
+    statusPill.textContent = allOk ? (revealed ? "Verified" : "Committed") : "FAILED";
+    pills.append(statusPill);
+    if(out.roi){
+      const pl = $("span","pill " + (out.roi.profit>=0 ? "pl-pos":"pl-neg"));
+      pl.textContent = eur(out.roi.profit);
+      pills.append(pl);
+    }
+    out.ok = allOk;
     if(!allOk) box.open = true;
   }catch(err){
-    allOk = false;
+    out.ok = false;
     check(checks, false, "Could not load or verify this day", String(err));
-    pill.className = "pill bad"; pill.textContent = "ERROR";
+    const p = $("span","pill bad"); p.textContent = "ERROR"; pills.append(p);
     box.open = true;
   }
-  return { box, ok:allOk, chain:entry.chain };
+  return out;
+}
+
+function renderClaim(results){
+  const el = document.getElementById("claim");
+  // cumulative curve over settled days (chronological)
+  let cumStaked=0, cumProfit=0, cumWon=0, cumSettled=0, betDays=0;
+  const curve=[];
+  for(const r of results){
+    if(!r.roi) continue;
+    cumStaked+=r.roi.staked; cumProfit+=r.roi.profit; cumWon+=r.roi.won; cumSettled+=r.roi.settled; betDays++;
+    curve.push({date:r.date, roi:cumProfit/cumStaked});
+  }
+  if(cumStaked<=0){
+    el.innerHTML = `<div class="roi"><span class="big">—</span><span class="lbl">ROI</span></div>`+
+      `<div class="row pending">Awaiting the first settled results. Bets are already committed and verifiable below.</div>`;
+    return;
+  }
+  const overall = cumProfit/cumStaked;
+  let deltaHtml = `<span class="delta flat">first settled day</span>`;
+  if(curve.length>=2){
+    const d = curve[curve.length-1].roi - curve[curve.length-2].roi;
+    const cls = d>0.0005?"up":(d<-0.0005?"down":"flat");
+    const arrow = d>0.0005?"▲":(d<-0.0005?"▼":"▬");
+    deltaHtml = `<span class="delta ${cls}">${arrow} ${(d>=0?"+":"−")}${Math.abs(d*100).toFixed(1)} pts vs previous day</span>`;
+  }
+  const strike = cumSettled>0 ? (cumWon/cumSettled*100).toFixed(0) : "0";
+  el.className = "claim good";
+  el.innerHTML =
+    `<div class="roi"><span class="big">${(overall*100).toFixed(1)}%</span>`+
+    `<span class="lbl">ROI over ${cumSettled} settled bet${cumSettled!==1?"s":""}</span>${deltaHtml}</div>`+
+    `<div class="row">Net <b>${eur(cumProfit)}</b> on <b>${eur(cumStaked)}</b> staked · `+
+    `<b>${cumWon}/${cumSettled}</b> won (<b>${strike}%</b> strike) · across <b>${betDays}</b> day${betDays!==1?"s":""}</div>`+
+    `<div class="note">Computed live from the signed bets + published results in “The Proof” below — recompute it yourself with <code>verify.py</code>.</div>`;
 }
 
 async function main(){
@@ -216,35 +307,34 @@ async function main(){
   const daysEl = document.getElementById("days");
 
   if(!(crypto.subtle && crypto.subtle.verify)){
+    document.getElementById("claim").innerHTML = `<div class="row pending">This browser can't run the check.</div>`;
     banner.className="banner bad";
     banner.innerHTML = `<div class="big">⚠️ This browser can't run the check</div>
-      <div class="sub">Please open in an up-to-date Chrome, Safari, Firefox or Edge,
-      or verify from the command line with <code>verify.py</code>.</div>`;
+      <div class="sub">Open in an up-to-date Chrome, Safari, Firefox or Edge, or use <code>verify.py</code>.</div>`;
     return;
   }
 
   let index, pubkey;
   try{
     index = await getJSON("index.json");
-    pubkey = await crypto.subtle.importKey("spki", pemToDer(index.public_key_pem),
-      {name:"Ed25519"}, false, ["verify"]);
+    pubkey = await crypto.subtle.importKey("spki", pemToDer(index.public_key_pem), {name:"Ed25519"}, false, ["verify"]);
   }catch(err){
     banner.className="banner bad";
     banner.innerHTML = `<div class="big">⚠️ Couldn't load the record</div>
-      <div class="sub">${err} — the key or index may be unavailable, or your browser
-      lacks Ed25519 support. Try the <code>verify.py</code> route.</div>`;
+      <div class="sub">${err} — key/index unavailable, or your browser lacks Ed25519 support. Try <code>verify.py</code>.</div>`;
     return;
   }
 
-  let prev = "GENESIS", passed = 0, failed = 0, computedHead = "GENESIS";
-  const results = [];
+  let prev="GENESIS", passed=0, failed=0, computedHead="GENESIS";
+  const results=[];
   for(const entry of index.days){
     const r = await verifyDay(pubkey, entry, prev);
-    results.push(r); prev = r.chain; computedHead = r.chain;
+    results.push(r); prev=r.chain; computedHead=r.chain;
     r.ok ? passed++ : failed++;
   }
-  // newest first
-  for(const r of results.reverse()) daysEl.append(r.box);
+
+  renderClaim(results);                             // chronological
+  for(const r of results.slice().reverse()) daysEl.append(r.box);   // newest first
 
   const headOk = computedHead === index.head;
   const good = failed===0 && headOk;
