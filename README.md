@@ -50,13 +50,3 @@ python verify.py 2026-08-30 # one day
 
 The public key is in [`keys/public_key.pem`](keys/public_key.pem) and also pinned in
 the Telegram channel — compare the two.
-
-## Maintainer notes
-
-```bash
-python add_day.py commit --date YYYY-MM-DD --push   # bet day: manifest + signature
-python add_day.py reveal --date YYYY-MM-DD --push   # next day: full bets
-```
-
-`add_day.py` copies the signed files out of `betting_service`, rebuilds the hash chain,
-and pushes. After each run, update the pinned HEAD in the Telegram bio.
