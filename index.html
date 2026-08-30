@@ -223,27 +223,42 @@ async function verifyDay(pubkey, entry, prevChain){
       }
     }
 
-    // Fixtures list (+ result badges when settled)
-    const list = revealed ? bets : manifest;
-    const fx = $("div","fixtures"); const seen = new Set();
-    for(const e of list){
-      const k = fixtureKey(e); if(seen.has(k)) continue; seen.add(k);
-      const row = $("div","fx");
-      const l = $("div"); l.append($("div",null,`${e.home_team_name} vs ${e.away_team_name}`));
-      l.append($("div","lg", `${e.league_name} · ${e.market}`)); row.append(l);
-      if(revealed && resultsMap){
-        const res = resultsMap[fixtureKey(e)];
-        const badge = $("div","res " + (res==null ? "pend" : (e.outcome===res ? "win":"lose")));
-        badge.textContent = res==null ? "pending" : (e.outcome===res ? `✓ ${res}` : `✗ ${res}`);
-        row.append(badge);
+    // Fixtures. When revealed, show ONE ROW PER BET LEG (a single match can carry
+    // several legs, e.g. home AND draw) so each leg's own result is shown and the
+    // rows reconcile with the day P&L. Before reveal, show the deduped manifest.
+    const fx = $("div","fixtures");
+    if(revealed){
+      for(const b of bets){
+        const row = $("div","fx");
+        const l = $("div"); l.append($("div",null,`${b.home_team_name} vs ${b.away_team_name}`));
+        l.append($("div","lg", `${b.league_name} · ${b.outcome.toUpperCase()} @ ${b.price} · ${eur(b.size)}`));
+        row.append(l);
+        if(resultsMap){
+          const res = resultsMap[fixtureKey(b)];
+          const win = b.outcome === res;
+          const badge = $("div","res " + (res==null ? "pend" : (win ? "win":"lose")));
+          badge.textContent = res==null ? "pending"
+            : `${win ? "✓ won" : "✗ lost"} · ${win ? "+"+eur(b.size*(b.price-1)).slice(1) : eur(-b.size)}`;
+          row.append(badge);
+        }
+        fx.append(row);
       }
-      fx.append(row);
+    } else {
+      const seen = new Set();
+      for(const e of manifest){
+        const k = fixtureKey(e); if(seen.has(k)) continue; seen.add(k);
+        const row = $("div","fx");
+        const l = $("div"); l.append($("div",null,`${e.home_team_name} vs ${e.away_team_name}`));
+        l.append($("div","lg", `${e.league_name} · ${e.market}`)); row.append(l);
+        fx.append(row);
+      }
     }
     checks.append(fx);
     if(revealed){
+      const nFix = new Set(bets.map(fixtureKey)).size;
       const staked = bets.reduce((s,b)=>s+(b.size||0),0);
       const stats = $("div"); stats.style.marginTop="10px";
-      stats.innerHTML = `<span class="stat"><b>${seen.size}</b> fixtures</span>`+
+      stats.innerHTML = `<span class="stat"><b>${nFix}</b> fixtures</span>`+
         `<span class="stat"><b>${bets.length}</b> bet legs</span>`+
         `<span class="stat">staked <b>${staked.toFixed(2)}</b></span>`;
       checks.append(stats);
