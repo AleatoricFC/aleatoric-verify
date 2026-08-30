@@ -112,16 +112,16 @@ def verify_day(pub, entry, prev):
         if hashlib.sha256(results_bytes).hexdigest() != entry["results_sha256"]:
             bad("results.json altered since signing"); failures += 1; results_ok = False
         if results_ok:
-            ok(f"match results signed & unaltered ({len(results)} settled)")
+            ok(f"bet settlements signed & unaltered ({len(results)} legs)")
         if bets is not None and results_ok:
-            rmap = {fixture_key(r): r["result"] for r in results}
+            rmap = {(fixture_key(r), r["outcome"]): r["settled"] for r in results}
             day_pnl = day_staked = 0.0; won = settled = 0
             for b in bets:
-                res = rmap.get(fixture_key(b))
-                if res is None:
+                state = rmap.get((fixture_key(b), b["outcome"]))
+                if state is None or state == "VOID":
                     continue
                 settled += 1; day_staked += b["size"]
-                win = b["outcome"] == res
+                win = state == "WON"
                 won += 1 if win else 0
                 day_pnl += b["size"] * (b["price"] - 1) if win else -b["size"]
             if settled:

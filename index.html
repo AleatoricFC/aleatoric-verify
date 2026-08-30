@@ -92,8 +92,8 @@
   <footer>
     <p><b>The claim is computed, not asserted.</b> The ROI above isn't a number I type in —
     the page derives it from my <em>signed</em> bets (stake &amp; price, locked before kick-off)
-    and the <em>published match results</em> (home/draw/away — a public fact you can check on any
-    football site). Win → <code>stake × (price − 1)</code>, loss → <code>− stake</code>,
+    and the <em>published settlement</em> of each bet (won or lost — which you can confirm against
+    the public match result). Win → <code>stake × (price − 1)</code>, loss → <code>− stake</code>,
     ROI = total profit ÷ total staked. Anyone can recompute it from the files below.</p>
     <p><b>What the signatures prove.</b> Each day the full bet list is hashed and signed the
     moment it's placed, and the signature is posted before any match starts. The next day the
@@ -199,20 +199,20 @@ async function verifyDay(pubkey, entry, prevChain){
       const rShaOk = (await sha256hex(resBytes)) === entry.results_sha256;
       const rSigOk = await verifySig(pubkey, entry.results_signature, entry.results_sha256, entry.results_timestamp);
       allOk &&= (rShaOk && rSigOk);
-      check(checks, rShaOk && rSigOk, "Match results published & signed (public outcomes)",
+      check(checks, rShaOk && rSigOk, "Bet settlements published & signed (won/lost per bet)",
         `signed ${new Date(entry.results_timestamp).toUTCString()}`);
       resultsMap = {};
-      for(const r of results) resultsMap[fixtureKey(r)] = r.result;
+      for(const r of results) resultsMap[fixtureKey(r) + "|" + r.outcome] = r.settled;
     }
 
-    // Per-day P&L from signed bets + verified results (published-terms ROI).
+    // Per-day P&L from signed bets + verified settlements (published-terms ROI).
     if(revealed && resultsMap){
       let staked=0, profit=0, won=0, settled=0;
       for(const b of bets){
-        const res = resultsMap[fixtureKey(b)];
-        if(res == null) continue;               // leg still pending
+        const s = resultsMap[fixtureKey(b) + "|" + b.outcome];
+        if(s == null || s === "VOID") continue;   // pending, or void (stake returned)
         settled++; staked += b.size;
-        const win = b.outcome === res;
+        const win = s === "WON";
         won += win ? 1 : 0;
         profit += win ? b.size*(b.price-1) : -b.size;
       }
@@ -234,11 +234,11 @@ async function verifyDay(pubkey, entry, prevChain){
         l.append($("div","lg", `${b.league_name} · ${b.outcome.toUpperCase()} @ ${b.price} · ${eur(b.size)}`));
         row.append(l);
         if(resultsMap){
-          const res = resultsMap[fixtureKey(b)];
-          const win = b.outcome === res;
-          const badge = $("div","res " + (res==null ? "pend" : (win ? "win":"lose")));
-          badge.textContent = res==null ? "pending"
-            : `${win ? "✓ won" : "✗ lost"} · ${win ? "+"+eur(b.size*(b.price-1)).slice(1) : eur(-b.size)}`;
+          const s = resultsMap[fixtureKey(b) + "|" + b.outcome];
+          const cls = (s==null || s==="VOID") ? "pend" : s==="WON" ? "win" : "lose";
+          const badge = $("div","res " + cls);
+          badge.textContent = s==null ? "pending" : s==="VOID" ? "void · stake returned"
+            : s==="WON" ? `✓ won · +${eur(b.size*(b.price-1))}` : `✗ lost · ${eur(-b.size)}`;
           row.append(badge);
         }
         fx.append(row);

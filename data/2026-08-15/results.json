@@ -5,6 +5,16 @@
     "home_team_name": "Genk",
     "away_team_name": "KVC Westerlo",
     "market": "H/D/A",
-    "result": "home"
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-08-15",
+    "league_name": "Jupiler Pro League",
+    "home_team_name": "Genk",
+    "away_team_name": "KVC Westerlo",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
   }
 ]

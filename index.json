@@ -13,9 +13,9 @@
       "prev": "GENESIS",
       "chain": "49d8431c6c4e10157aa113ad3f77a42fd3859744644c96f592eea0e52847672f",
       "results_present": true,
-      "results_sha256": "6132a50113e23c155df1036da07f9bf006fc5820e327a34507956c30f59e3267",
-      "results_timestamp": "2026-08-30T15:43:44.004500+00:00",
-      "results_signature": "fyIF3YbChhEwvYYTaOMHidwns5+uuoT2Qvx4v+bXq6JW8K/jvDE1RZnJZ8PSXsuB2ipoBqgPw8FrF4B7Vp0hAQ=="
+      "results_sha256": "478761d9737de5959b87ffe963222014241f5f4809e2273fdf5cf5a5c3273394",
+      "results_timestamp": "2026-08-30T19:02:49.837822+00:00",
+      "results_signature": "/JdRyRbNNTYd3JBv1Vh+WkA4yeec09yKKmkn3aLKe8aukveoetyWu3Hz3n5C8yBQ+AFlXaeME8eZ/EaAzeu+Aw=="
     },
     {
       "date": "2026-08-16",
