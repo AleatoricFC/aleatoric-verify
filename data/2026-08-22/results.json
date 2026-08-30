@@ -1,0 +1,34 @@
+[
+  {
+    "date": "2026-08-22",
+    "league_name": "Jupiler Pro League",
+    "home_team_name": "Antwerp",
+    "away_team_name": "Genk",
+    "market": "H/D/A",
+    "result": "draw"
+  },
+  {
+    "date": "2026-08-22",
+    "league_name": "Premier League",
+    "home_team_name": "Brentford",
+    "away_team_name": "Tottenham",
+    "market": "H/D/A",
+    "result": "home"
+  },
+  {
+    "date": "2026-08-22",
+    "league_name": "Serie A",
+    "home_team_name": "Fluminense",
+    "away_team_name": "Remo",
+    "market": "H/D/A",
+    "result": "home"
+  },
+  {
+    "date": "2026-08-22",
+    "league_name": "Serie A",
+    "home_team_name": "Genoa",
+    "away_team_name": "Napoli",
+    "market": "H/D/A",
+    "result": "away"
+  }
+]
