@@ -5,7 +5,8 @@
     "home_team_name": "Antwerp",
     "away_team_name": "Genk",
     "market": "H/D/A",
-    "result": "draw"
+    "outcome": "home",
+    "settled": "LOST"
   },
   {
     "date": "2026-08-22",
@@ -13,7 +14,8 @@
     "home_team_name": "Brentford",
     "away_team_name": "Tottenham",
     "market": "H/D/A",
-    "result": "home"
+    "outcome": "home",
+    "settled": "WON"
   },
   {
     "date": "2026-08-22",
@@ -21,7 +23,8 @@
     "home_team_name": "Fluminense",
     "away_team_name": "Remo",
     "market": "H/D/A",
-    "result": "home"
+    "outcome": "draw",
+    "settled": "LOST"
   },
   {
     "date": "2026-08-22",
@@ -29,6 +32,7 @@
     "home_team_name": "Genoa",
     "away_team_name": "Napoli",
     "market": "H/D/A",
-    "result": "away"
+    "outcome": "away",
+    "settled": "WON"
   }
 ]
