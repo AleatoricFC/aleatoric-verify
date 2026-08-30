@@ -5,7 +5,8 @@
     "home_team_name": "Nacional",
     "away_team_name": "Estoril",
     "market": "H/D/A",
-    "result": "home"
+    "outcome": "home",
+    "settled": "WON"
   },
   {
     "date": "2026-08-16",
@@ -13,6 +14,7 @@
     "home_team_name": "Vasco DA Gama",
     "away_team_name": "Santos",
     "market": "H/D/A",
-    "result": "away"
+    "outcome": "away",
+    "settled": "WON"
   }
 ]
