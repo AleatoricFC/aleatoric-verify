@@ -14,7 +14,6 @@ Usage:  python build_index.py
 """
 import json
 import hashlib
-from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -70,8 +69,10 @@ def build() -> dict:
         )
         prev = chain
 
+    # No wall-clock field here on purpose: the index must be a deterministic function
+    # of the data so rebuilds are byte-identical (idempotent). Timing is already
+    # anchored by the chain HEAD, the git commit dates, and each day's signed timestamp.
     return {
-        "generated": datetime.now(timezone.utc).isoformat(),
         "public_key_pem": (ROOT / "keys" / "public_key.pem").read_text().strip(),
         "head": prev,
         "count": len(days),
