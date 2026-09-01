@@ -124,7 +124,10 @@
       "bets_present": true,
       "prev": "b9fce3ef31bab06d0d205778294773620e7899bf0cb6e3ce63b0fd6c233e71d9",
       "chain": "2eed5e3395de603ba901f8c01be3e82fd99d956fadcd1f907ac3ea6270a3ddf8",
-      "results_present": false
+      "results_present": true,
+      "results_sha256": "46ddd7fd98cc0b97324e88748f27eed8a76f16e1d2d8d0e788575e7c88e0b448",
+      "results_timestamp": "2026-09-01T08:30:12.022622+00:00",
+      "results_signature": "YdRh0hfRo2eDO3jwb790Wnu5i2pPGqO4QoHuLhfqSA7h7f3kPbR+bVu0U+arYfo6MIm8gc+cCeEU2kgjtBrBAg=="
     }
   ]
 }
