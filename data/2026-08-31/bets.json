@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-08-31",
+    "fixture_id": 1557377,
+    "league_name": "Premier League",
+    "home_team_name": "Aston Villa",
+    "away_team_name": "Arsenal",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 7.0,
+    "size": 14.1,
+    "predicted_proba_home": 0.21841825544834137,
+    "predicted_proba_draw": 0.23962251842021942,
+    "predicted_proba_away": 0.5419592261314392
+  },
+  {
+    "date": "2026-08-31",
+    "fixture_id": 1557377,
+    "league_name": "Premier League",
+    "home_team_name": "Aston Villa",
+    "away_team_name": "Arsenal",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "price": 4.5,
+    "size": 3.58,
+    "predicted_proba_home": 0.21841825544834137,
+    "predicted_proba_draw": 0.23962251842021942,
+    "predicted_proba_away": 0.5419592261314392
+  },
+  {
+    "date": "2026-08-31",
+    "fixture_id": 1550098,
+    "league_name": "Serie A",
+    "home_team_name": "Atalanta",
+    "away_team_name": "Bologna",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "price": 3.75,
+    "size": 4.68,
+    "predicted_proba_home": 0.4105212986469269,
+    "predicted_proba_draw": 0.28810447454452515,
+    "predicted_proba_away": 0.30137425661087036
+  },
+  {
+    "date": "2026-08-31",
+    "fixture_id": 1550098,
+    "league_name": "Serie A",
+    "home_team_name": "Atalanta",
+    "away_team_name": "Bologna",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 4.2,
+    "size": 13.29,
+    "predicted_proba_home": 0.4105212986469269,
+    "predicted_proba_draw": 0.28810447454452515,
+    "predicted_proba_away": 0.30137425661087036
+  }
+]
