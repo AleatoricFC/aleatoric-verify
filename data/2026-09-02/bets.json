@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2026-09-02",
+    "fixture_id": 1556653,
+    "league_name": "Premiership",
+    "home_team_name": "Dundee",
+    "away_team_name": "ST Johnstone",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.78,
+    "size": 12.09,
+    "predicted_proba_home": 0.4586816132068634,
+    "predicted_proba_draw": 0.2900145351886749,
+    "predicted_proba_away": 0.25130385160446167
+  },
+  {
+    "date": "2026-09-02",
+    "fixture_id": 1556656,
+    "league_name": "Premiership",
+    "home_team_name": "Kilmarnock",
+    "away_team_name": "ST Mirren",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.92,
+    "size": 9.97,
+    "predicted_proba_home": 0.4262734651565552,
+    "predicted_proba_draw": 0.28523820638656616,
+    "predicted_proba_away": 0.28848835825920105
+  },
+  {
+    "date": "2026-09-02",
+    "fixture_id": 1556657,
+    "league_name": "Premiership",
+    "home_team_name": "Motherwell",
+    "away_team_name": "Dundee Utd",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.12,
+    "size": 13.95,
+    "predicted_proba_home": 0.5659087300300598,
+    "predicted_proba_draw": 0.2360977977514267,
+    "predicted_proba_away": 0.1979934424161911
+  }
+]
