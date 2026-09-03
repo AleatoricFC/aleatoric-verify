@@ -1,0 +1,29 @@
+[
+  {
+    "date": "2026-09-02",
+    "league_name": "Premiership",
+    "home_team_name": "Dundee",
+    "away_team_name": "ST Johnstone",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-09-02",
+    "league_name": "Premiership",
+    "home_team_name": "Kilmarnock",
+    "away_team_name": "ST Mirren",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-09-02",
+    "league_name": "Premiership",
+    "home_team_name": "Motherwell",
+    "away_team_name": "Dundee Utd",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  }
+]
