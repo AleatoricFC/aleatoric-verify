@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-09-03",
+    "fixture_id": 1570392,
+    "league_name": "La Liga",
+    "home_team_name": "Real Sociedad",
+    "away_team_name": "Celta Vigo",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "price": 3.8,
+    "size": 2.59,
+    "predicted_proba_home": 0.4012030065059662,
+    "predicted_proba_draw": 0.2876528799533844,
+    "predicted_proba_away": 0.3111441731452942
+  },
+  {
+    "date": "2026-09-03",
+    "fixture_id": 1570392,
+    "league_name": "La Liga",
+    "home_team_name": "Real Sociedad",
+    "away_team_name": "Celta Vigo",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 4.4,
+    "size": 8.45,
+    "predicted_proba_home": 0.4012030065059662,
+    "predicted_proba_draw": 0.2876528799533844,
+    "predicted_proba_away": 0.3111441731452942
+  }
+]
