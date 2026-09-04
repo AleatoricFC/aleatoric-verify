@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-09-03",
+    "league_name": "La Liga",
+    "home_team_name": "Real Sociedad",
+    "away_team_name": "Celta Vigo",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-09-03",
+    "league_name": "La Liga",
+    "home_team_name": "Real Sociedad",
+    "away_team_name": "Celta Vigo",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  }
+]
