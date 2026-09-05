@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-09-05",
+    "league_name": "Bundesliga",
+    "home_team_name": "SC Paderborn 07",
+    "away_team_name": "SC Freiburg",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-09-05",
+    "league_name": "Bundesliga",
+    "home_team_name": "Werder Bremen",
+    "away_team_name": "RB Leipzig",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-09-05",
+    "league_name": "Primeira Liga",
+    "home_team_name": "Estrela",
+    "away_team_name": "Famalicao",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-09-05",
+    "league_name": "Serie A",
+    "home_team_name": "AS Roma",
+    "away_team_name": "Atalanta",
+    "market": "H/D/A"
+  }
+]
