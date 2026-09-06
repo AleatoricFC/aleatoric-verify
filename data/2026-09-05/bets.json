@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-09-05",
+    "fixture_id": 1575157,
+    "league_name": "Bundesliga",
+    "home_team_name": "SC Paderborn 07",
+    "away_team_name": "SC Freiburg",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 2.02,
+    "size": 2.9,
+    "predicted_proba_home": 0.24147258698940277,
+    "predicted_proba_draw": 0.24466252326965332,
+    "predicted_proba_away": 0.5138649344444275
+  },
+  {
+    "date": "2026-09-05",
+    "fixture_id": 1575155,
+    "league_name": "Bundesliga",
+    "home_team_name": "Werder Bremen",
+    "away_team_name": "RB Leipzig",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 1.81,
+    "size": 3.14,
+    "predicted_proba_home": 0.20048613846302032,
+    "predicted_proba_draw": 0.22899530827999115,
+    "predicted_proba_away": 0.5705185532569885
+  },
+  {
+    "date": "2026-09-05",
+    "fixture_id": 1575484,
+    "league_name": "Primeira Liga",
+    "home_team_name": "Estrela",
+    "away_team_name": "Famalicao",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 2.68,
+    "size": 9.82,
+    "predicted_proba_home": 0.2621259391307831,
+    "predicted_proba_draw": 0.28561165928840637,
+    "predicted_proba_away": 0.4522623121738434
+  },
+  {
+    "date": "2026-09-05",
+    "fixture_id": 1550107,
+    "league_name": "Serie A",
+    "home_team_name": "AS Roma",
+    "away_team_name": "Atalanta",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 1.73,
+    "size": 3.99,
+    "predicted_proba_home": 0.5996806621551514,
+    "predicted_proba_draw": 0.21253745257854462,
+    "predicted_proba_away": 0.18778188526630402
+  }
+]
