@@ -1,0 +1,29 @@
+[
+  {
+    "date": "2026-09-06",
+    "league_name": "La Liga",
+    "home_team_name": "Alaves",
+    "away_team_name": "Osasuna",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-09-06",
+    "league_name": "Primeira Liga",
+    "home_team_name": "Santa Clara",
+    "away_team_name": "Rio Ave",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-09-06",
+    "league_name": "Serie A",
+    "home_team_name": "Parma",
+    "away_team_name": "Monza",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  }
+]
