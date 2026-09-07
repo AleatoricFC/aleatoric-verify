@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2026-09-06",
+    "fixture_id": 1570363,
+    "league_name": "La Liga",
+    "home_team_name": "Alaves",
+    "away_team_name": "Osasuna",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.36,
+    "size": 6.18,
+    "predicted_proba_home": 0.46972715854644775,
+    "predicted_proba_draw": 0.29287484288215637,
+    "predicted_proba_away": 0.23739801347255707
+  },
+  {
+    "date": "2026-09-06",
+    "fixture_id": 1575488,
+    "league_name": "Primeira Liga",
+    "home_team_name": "Santa Clara",
+    "away_team_name": "Rio Ave",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 1.96,
+    "size": 3.47,
+    "predicted_proba_home": 0.5321800112724304,
+    "predicted_proba_draw": 0.28333163261413574,
+    "predicted_proba_away": 0.18448832631111145
+  },
+  {
+    "date": "2026-09-06",
+    "fixture_id": 1550115,
+    "league_name": "Serie A",
+    "home_team_name": "Parma",
+    "away_team_name": "Monza",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.9,
+    "size": 12.52,
+    "predicted_proba_home": 0.4507230222225189,
+    "predicted_proba_draw": 0.3097526431083679,
+    "predicted_proba_away": 0.23952430486679077
+  }
+]
