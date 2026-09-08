@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-09-07",
+    "fixture_id": 1550116,
+    "league_name": "Serie A",
+    "home_team_name": "Udinese",
+    "away_team_name": "Lazio",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.86,
+    "size": 11.46,
+    "predicted_proba_home": 0.4459289610385895,
+    "predicted_proba_draw": 0.289773166179657,
+    "predicted_proba_away": 0.26429784297943115
+  }
+]
