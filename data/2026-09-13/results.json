@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026-09-13",
+    "league_name": "Jupiler Pro League",
+    "home_team_name": "RAAL La Louvi\u00e8re",
+    "away_team_name": "Kortrijk",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-09-13",
+    "league_name": "Primeira Liga",
+    "home_team_name": "Arouca",
+    "away_team_name": "Santa Clara",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-09-13",
+    "league_name": "Serie A",
+    "home_team_name": "Napoli",
+    "away_team_name": "Bologna",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-09-13",
+    "league_name": "S\u00fcper Lig",
+    "home_team_name": "Gen\u00e7lerbirli\u011fi S.K.",
+    "away_team_name": "Kas\u0131mpa\u015fa",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  }
+]
