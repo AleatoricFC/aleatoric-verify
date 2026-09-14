@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-09-13",
+    "fixture_id": 1558634,
+    "league_name": "Jupiler Pro League",
+    "home_team_name": "RAAL La Louvi\u00e8re",
+    "away_team_name": "Kortrijk",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.5,
+    "size": 6.26,
+    "predicted_proba_home": 0.44890207052230835,
+    "predicted_proba_draw": 0.2756911516189575,
+    "predicted_proba_away": 0.27540677785873413
+  },
+  {
+    "date": "2026-09-13",
+    "fixture_id": 1575492,
+    "league_name": "Primeira Liga",
+    "home_team_name": "Arouca",
+    "away_team_name": "Santa Clara",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.68,
+    "size": 7.79,
+    "predicted_proba_home": 0.436739981174469,
+    "predicted_proba_draw": 0.2916600704193115,
+    "predicted_proba_away": 0.2715999484062195
+  },
+  {
+    "date": "2026-09-13",
+    "fixture_id": 1550123,
+    "league_name": "Serie A",
+    "home_team_name": "Napoli",
+    "away_team_name": "Bologna",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 1.96,
+    "size": 2.0,
+    "predicted_proba_home": 0.5484440326690674,
+    "predicted_proba_draw": 0.23670116066932678,
+    "predicted_proba_away": 0.21485477685928345
+  },
+  {
+    "date": "2026-09-13",
+    "fixture_id": 1584409,
+    "league_name": "S\u00fcper Lig",
+    "home_team_name": "Gen\u00e7lerbirli\u011fi S.K.",
+    "away_team_name": "Kas\u0131mpa\u015fa",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.38,
+    "size": 8.25,
+    "predicted_proba_home": 0.48243391513824463,
+    "predicted_proba_draw": 0.2818334400653839,
+    "predicted_proba_away": 0.23573262989521027
+  }
+]
