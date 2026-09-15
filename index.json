@@ -1,7 +1,7 @@
 {
   "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEADovvXMEwlrLeMVInWM+fxFOjkIFe4ZgAURkpfEqWbWQ=\n-----END PUBLIC KEY-----",
-  "head": "1375a2f03b5a2409e269d5abbf536f98d8e360fdfb2b6c7bacd078a9957ceeb0",
-  "count": 15,
+  "head": "376a1024626588e6393cb0f8413430c985b6eec535bdd8a242485fedda85b53b",
+  "count": 16,
   "days": [
     {
       "date": "2026-08-15",
@@ -212,6 +212,17 @@
       "results_sha256": "c0a52bc65ec9b176150c56def265ba8695befbe17c7b84c05a402c58aa71f3e5",
       "results_timestamp": "2026-09-15T08:30:05.302067+00:00",
       "results_signature": "lNaxeT9n9L4XuD8R7T8eYV7aeFogcZaaun65i7eIvPNm6G8EHvt1FjrLOYTi2+PZ+dQxY8sGlvy9FN3NseiSBw=="
+    },
+    {
+      "date": "2026-09-15",
+      "timestamp": "2026-09-15T09:00:34.316242+00:00",
+      "manifest_sha256": "b7916bfc438ef500bc9924ec319561719830037030a1df28dd4599a9c2c745dd",
+      "bets_sha256": "f9a6ce8d312734bbf6e8aeaaf84855874f8cc5d534d8a5ba6cb5bcf117ce820c",
+      "signature": "5BKLT/8/qOM5rUJPde4IxNarGneatuoPLI9rjp3xQmmzPmGqXVF0ExxNGKgBwgcFQyW2Kf91n/A6nMnuyl2BDQ==",
+      "bets_present": false,
+      "prev": "1375a2f03b5a2409e269d5abbf536f98d8e360fdfb2b6c7bacd078a9957ceeb0",
+      "chain": "376a1024626588e6393cb0f8413430c985b6eec535bdd8a242485fedda85b53b",
+      "results_present": false
     }
   ]
 }
