@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-09-15",
+    "fixture_id": 1570391,
+    "league_name": "La Liga",
+    "home_team_name": "Rayo Vallecano",
+    "away_team_name": "Espanyol",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.44,
+    "size": 9.85,
+    "predicted_proba_home": 0.48558589816093445,
+    "predicted_proba_draw": 0.2808704674243927,
+    "predicted_proba_away": 0.23354363441467285
+  }
+]
