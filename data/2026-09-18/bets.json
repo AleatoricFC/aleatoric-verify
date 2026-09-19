@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-09-18",
+    "fixture_id": 1570397,
+    "league_name": "La Liga",
+    "home_team_name": "Espanyol",
+    "away_team_name": "Elche",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 1.88,
+    "size": 4.98,
+    "predicted_proba_home": 0.5619828701019287,
+    "predicted_proba_draw": 0.25099119544029236,
+    "predicted_proba_away": 0.18702590465545654
+  }
+]
