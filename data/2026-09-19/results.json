@@ -1,0 +1,29 @@
+[
+  {
+    "date": "2026-09-19",
+    "league_name": "Ekstraklasa",
+    "home_team_name": "Motor Lublin",
+    "away_team_name": "Gornik Zabrze",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-09-19",
+    "league_name": "Super League 1",
+    "home_team_name": "Atromitos",
+    "away_team_name": "Kifisia",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-09-19",
+    "league_name": "S\u00fcper Lig",
+    "home_team_name": "Kocaelispor",
+    "away_team_name": "Gaziantep FK",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  }
+]
