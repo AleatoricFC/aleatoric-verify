@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2026-09-19",
+    "fixture_id": 1553177,
+    "league_name": "Ekstraklasa",
+    "home_team_name": "Motor Lublin",
+    "away_team_name": "Gornik Zabrze",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 2.12,
+    "size": 4.42,
+    "predicted_proba_home": 0.23480364680290222,
+    "predicted_proba_draw": 0.26325181126594543,
+    "predicted_proba_away": 0.5019445419311523
+  },
+  {
+    "date": "2026-09-19",
+    "fixture_id": 1593318,
+    "league_name": "Super League 1",
+    "home_team_name": "Atromitos",
+    "away_team_name": "Kifisia",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.26,
+    "size": 3.62,
+    "predicted_proba_home": 0.46861958503723145,
+    "predicted_proba_draw": 0.2912425100803375,
+    "predicted_proba_away": 0.24013793468475342
+  },
+  {
+    "date": "2026-09-19",
+    "fixture_id": 1584419,
+    "league_name": "S\u00fcper Lig",
+    "home_team_name": "Kocaelispor",
+    "away_team_name": "Gaziantep FK",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.5,
+    "size": 4.69,
+    "predicted_proba_home": 0.4364676773548126,
+    "predicted_proba_draw": 0.3066629469394684,
+    "predicted_proba_away": 0.256869375705719
+  }
+]
