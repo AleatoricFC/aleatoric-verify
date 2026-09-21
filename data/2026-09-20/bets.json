@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-09-20",
+    "fixture_id": 1593321,
+    "league_name": "Super League 1",
+    "home_team_name": "OFI",
+    "away_team_name": "Asteras Tripolis",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.26,
+    "size": 7.6,
+    "predicted_proba_home": 0.4973554015159607,
+    "predicted_proba_draw": 0.28274765610694885,
+    "predicted_proba_away": 0.21989701688289642
+  }
+]
