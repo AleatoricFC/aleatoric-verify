@@ -1,0 +1,219 @@
+[
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Magdeburg",
+    "away_team_name": "Hannover 96",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Magdeburg",
+    "away_team_name": "Hannover 96",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Magdeburg",
+    "away_team_name": "Hannover 96",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC N\u00fcrnberg",
+    "away_team_name": "VfL Wolfsburg",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC N\u00fcrnberg",
+    "away_team_name": "VfL Wolfsburg",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC N\u00fcrnberg",
+    "away_team_name": "VfL Wolfsburg",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC N\u00fcrnberg",
+    "away_team_name": "VfL Wolfsburg",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "SV Darmstadt 98",
+    "away_team_name": "Energie Cottbus",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "SV Darmstadt 98",
+    "away_team_name": "Energie Cottbus",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "SV Darmstadt 98",
+    "away_team_name": "Energie Cottbus",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "SV Darmstadt 98",
+    "away_team_name": "Energie Cottbus",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "SV Darmstadt 98",
+    "away_team_name": "Energie Cottbus",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "VfL Osnabr\u00fcck",
+    "away_team_name": "Dynamo Dresden",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "3. Liga",
+    "home_team_name": "MSV Duisburg",
+    "away_team_name": "Hoffenheim II",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "3. Liga",
+    "home_team_name": "SG Sonnenhof Grossaspach",
+    "away_team_name": "Waldhof Mannheim",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "3. Liga",
+    "home_team_name": "SG Sonnenhof Grossaspach",
+    "away_team_name": "Waldhof Mannheim",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "3. Liga",
+    "home_team_name": "SG Sonnenhof Grossaspach",
+    "away_team_name": "Waldhof Mannheim",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "3. Liga",
+    "home_team_name": "SSV Jahn Regensburg",
+    "away_team_name": "Havelse",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "3. Liga",
+    "home_team_name": "SSV Jahn Regensburg",
+    "away_team_name": "Havelse",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "3. Liga",
+    "home_team_name": "SSV Jahn Regensburg",
+    "away_team_name": "Havelse",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "3. Liga",
+    "home_team_name": "SV Meppen",
+    "away_team_name": "Stuttgart II",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "3. Liga",
+    "home_team_name": "SV Meppen",
+    "away_team_name": "Stuttgart II",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "3. Liga",
+    "home_team_name": "W\u00fcrzburger Kickers",
+    "away_team_name": "Hansa Rostock",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "League Two",
+    "home_team_name": "Cheltenham",
+    "away_team_name": "Salford City",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "League Two",
+    "home_team_name": "Cheltenham",
+    "away_team_name": "Salford City",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "League Two",
+    "home_team_name": "Crawley Town",
+    "away_team_name": "Chesterfield",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "League Two",
+    "home_team_name": "Crawley Town",
+    "away_team_name": "Chesterfield",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "League Two",
+    "home_team_name": "Fleetwood Town",
+    "away_team_name": "Walsall",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "League Two",
+    "home_team_name": "Newport County",
+    "away_team_name": "Colchester",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "League Two",
+    "home_team_name": "Rotherham",
+    "away_team_name": "Gillingham",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-10",
+    "league_name": "League Two",
+    "home_team_name": "Swindon Town",
+    "away_team_name": "Crewe",
+    "market": "O/U 2.5"
+  }
+]
