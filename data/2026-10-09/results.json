@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-10-09",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Heidenheim",
+    "away_team_name": "1. FC Kaiserslautern",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-09",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Heidenheim",
+    "away_team_name": "1. FC Kaiserslautern",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-09",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Heidenheim",
+    "away_team_name": "1. FC Kaiserslautern",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-09",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Heidenheim",
+    "away_team_name": "1. FC Kaiserslautern",
+    "market": "O/U 4.5",
+    "outcome": "under_4.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-09",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Eintracht Braunschweig",
+    "away_team_name": "Holstein Kiel",
+    "market": "O/U 1.5",
+    "outcome": "under_1.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-09",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Eintracht Braunschweig",
+    "away_team_name": "Holstein Kiel",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-09",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Eintracht Braunschweig",
+    "away_team_name": "Holstein Kiel",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-09",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Eintracht Braunschweig",
+    "away_team_name": "Holstein Kiel",
+    "market": "O/U 4.5",
+    "outcome": "under_4.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-09",
+    "league_name": "Superliga",
+    "home_team_name": "FC Nordsjaelland",
+    "away_team_name": "Odense",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-09",
+    "league_name": "Superliga",
+    "home_team_name": "FC Nordsjaelland",
+    "away_team_name": "Odense",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-09",
+    "league_name": "Superliga",
+    "home_team_name": "FC Nordsjaelland",
+    "away_team_name": "Odense",
+    "market": "O/U 4.5",
+    "outcome": "under_4.5",
+    "settled": "WON"
+  }
+]
