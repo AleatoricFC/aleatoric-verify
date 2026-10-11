@@ -1,0 +1,254 @@
+[
+  {
+    "date": "2026-10-11",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "FC St. Pauli",
+    "away_team_name": "Karlsruher SC",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "FC St. Pauli",
+    "away_team_name": "Karlsruher SC",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "FC St. Pauli",
+    "away_team_name": "Karlsruher SC",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Hertha BSC",
+    "away_team_name": "SpVgg Greuther F\u00fcrth",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Hertha BSC",
+    "away_team_name": "SpVgg Greuther F\u00fcrth",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Hertha BSC",
+    "away_team_name": "SpVgg Greuther F\u00fcrth",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "VfL Bochum",
+    "away_team_name": "Arminia Bielefeld",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "3. Liga",
+    "home_team_name": "Alemannia Aachen",
+    "away_team_name": "FC Viktoria K\u00f6ln",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "3. Liga",
+    "home_team_name": "Alemannia Aachen",
+    "away_team_name": "FC Viktoria K\u00f6ln",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "3. Liga",
+    "home_team_name": "Alemannia Aachen",
+    "away_team_name": "FC Viktoria K\u00f6ln",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "3. Liga",
+    "home_team_name": "Fortuna D\u00fcsseldorf",
+    "away_team_name": "Verl",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premier League",
+    "home_team_name": "Crystal Palace",
+    "away_team_name": "Nottingham Forest",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premier League",
+    "home_team_name": "Crystal Palace",
+    "away_team_name": "Nottingham Forest",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premier League",
+    "home_team_name": "Hull City",
+    "away_team_name": "Everton",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premier League",
+    "home_team_name": "Hull City",
+    "away_team_name": "Everton",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premier League",
+    "home_team_name": "Liverpool",
+    "away_team_name": "Manchester City",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premier League",
+    "home_team_name": "Liverpool",
+    "away_team_name": "Manchester City",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premiership",
+    "home_team_name": "Aberdeen",
+    "away_team_name": "ST Johnstone",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premiership",
+    "home_team_name": "Aberdeen",
+    "away_team_name": "ST Johnstone",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premiership",
+    "home_team_name": "Motherwell",
+    "away_team_name": "Celtic",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premiership",
+    "home_team_name": "Motherwell",
+    "away_team_name": "Celtic",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premiership",
+    "home_team_name": "Motherwell",
+    "away_team_name": "Celtic",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Premiership",
+    "home_team_name": "Motherwell",
+    "away_team_name": "Celtic",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Serie A",
+    "home_team_name": "Como",
+    "away_team_name": "AS Roma",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Serie A",
+    "home_team_name": "Lazio",
+    "away_team_name": "Monza",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Serie A",
+    "home_team_name": "Lecce",
+    "away_team_name": "Bologna",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Serie A",
+    "home_team_name": "Lecce",
+    "away_team_name": "Bologna",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Serie A",
+    "home_team_name": "Sassuolo",
+    "away_team_name": "AC Milan",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Serie A",
+    "home_team_name": "Sassuolo",
+    "away_team_name": "AC Milan",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Serie A",
+    "home_team_name": "Sassuolo",
+    "away_team_name": "AC Milan",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Superliga",
+    "home_team_name": "Randers FC",
+    "away_team_name": "Viborg",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Superliga",
+    "home_team_name": "Randers FC",
+    "away_team_name": "Viborg",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Superliga",
+    "home_team_name": "Silkeborg",
+    "away_team_name": "AC Horsens",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "Superliga",
+    "home_team_name": "Silkeborg",
+    "away_team_name": "AC Horsens",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "3. Liga",
+    "home_team_name": "FC Ingolstadt 04",
+    "away_team_name": "SV Wehen",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-11",
+    "league_name": "3. Liga",
+    "home_team_name": "FC Ingolstadt 04",
+    "away_team_name": "SV Wehen",
+    "market": "O/U 3.5"
+  }
+]
