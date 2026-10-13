@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2026-10-12",
+    "league_name": "Premier League",
+    "home_team_name": "Coventry",
+    "away_team_name": "Newcastle",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-12",
+    "league_name": "Serie A",
+    "home_team_name": "Atalanta",
+    "away_team_name": "Venezia",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-12",
+    "league_name": "Serie A",
+    "home_team_name": "Atalanta",
+    "away_team_name": "Venezia",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-12",
+    "league_name": "Superliga",
+    "home_team_name": "Aarhus",
+    "away_team_name": "Sonderjyske",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-12",
+    "league_name": "Superliga",
+    "home_team_name": "Aarhus",
+    "away_team_name": "Sonderjyske",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  }
+]
