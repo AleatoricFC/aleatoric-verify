@@ -1,0 +1,62 @@
+[
+  {
+    "date": "2026-10-13",
+    "fixture_id": 1584027,
+    "league_name": "3. Liga",
+    "home_team_name": "Rot-Wei\u00df Essen",
+    "away_team_name": "Fortuna K\u00f6ln",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "price": 2.48,
+    "size": 5.82,
+    "model_probability": 0.4516429901123047,
+    "predicted_proba_home": 0.590274453163147,
+    "predicted_proba_draw": 0.2280462384223938,
+    "predicted_proba_away": 0.18167929351329803
+  },
+  {
+    "date": "2026-10-13",
+    "fixture_id": 1584029,
+    "league_name": "3. Liga",
+    "home_team_name": "Stuttgart II",
+    "away_team_name": "Hoffenheim II",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "price": 3.15,
+    "size": 7.45,
+    "model_probability": 0.43426018953323364,
+    "predicted_proba_home": 0.4167226254940033,
+    "predicted_proba_draw": 0.25348156690597534,
+    "predicted_proba_away": 0.3297957479953766
+  },
+  {
+    "date": "2026-10-13",
+    "fixture_id": 1584029,
+    "league_name": "3. Liga",
+    "home_team_name": "Stuttgart II",
+    "away_team_name": "Hoffenheim II",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "price": 1.89,
+    "size": 8.66,
+    "model_probability": 0.6582116186618805,
+    "predicted_proba_home": 0.4167226254940033,
+    "predicted_proba_draw": 0.25348156690597534,
+    "predicted_proba_away": 0.3297957479953766
+  },
+  {
+    "date": "2026-10-13",
+    "fixture_id": 1584029,
+    "league_name": "3. Liga",
+    "home_team_name": "Stuttgart II",
+    "away_team_name": "Hoffenheim II",
+    "market": "O/U 4.5",
+    "outcome": "under_4.5",
+    "price": 1.38,
+    "size": 11.34,
+    "model_probability": 0.823431134223938,
+    "predicted_proba_home": 0.4167226254940033,
+    "predicted_proba_draw": 0.25348156690597534,
+    "predicted_proba_away": 0.3297957479953766
+  }
+]
