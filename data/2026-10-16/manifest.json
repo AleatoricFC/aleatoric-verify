@@ -1,0 +1,93 @@
+[
+  {
+    "date": "2026-10-16",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Energie Cottbus",
+    "away_team_name": "1. FC N\u00fcrnberg",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Energie Cottbus",
+    "away_team_name": "1. FC N\u00fcrnberg",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Energie Cottbus",
+    "away_team_name": "1. FC N\u00fcrnberg",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Energie Cottbus",
+    "away_team_name": "1. FC N\u00fcrnberg",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Holstein Kiel",
+    "away_team_name": "Hertha BSC",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Holstein Kiel",
+    "away_team_name": "Hertha BSC",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Holstein Kiel",
+    "away_team_name": "Hertha BSC",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "3. Liga",
+    "home_team_name": "Fortuna K\u00f6ln",
+    "away_team_name": "Stuttgart II",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "3. Liga",
+    "home_team_name": "Fortuna K\u00f6ln",
+    "away_team_name": "Stuttgart II",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "Serie A",
+    "home_team_name": "Frosinone",
+    "away_team_name": "Sassuolo",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "Serie A",
+    "home_team_name": "Frosinone",
+    "away_team_name": "Sassuolo",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "Serie A",
+    "home_team_name": "Frosinone",
+    "away_team_name": "Sassuolo",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-16",
+    "league_name": "Serie A",
+    "home_team_name": "Frosinone",
+    "away_team_name": "Sassuolo",
+    "market": "O/U 4.5"
+  }
+]
