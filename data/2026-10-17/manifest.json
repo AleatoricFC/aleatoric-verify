@@ -1,0 +1,310 @@
+[
+  {
+    "date": "2026-10-17",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Kaiserslautern",
+    "away_team_name": "VfL Bochum",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Kaiserslautern",
+    "away_team_name": "VfL Bochum",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Hannover 96",
+    "away_team_name": "FC St. Pauli",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "SpVgg Greuther F\u00fcrth",
+    "away_team_name": "Eintracht Braunschweig",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "SpVgg Greuther F\u00fcrth",
+    "away_team_name": "Eintracht Braunschweig",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "VfL Wolfsburg",
+    "away_team_name": "1. FC Heidenheim",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "VfL Wolfsburg",
+    "away_team_name": "1. FC Heidenheim",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "VfL Wolfsburg",
+    "away_team_name": "1. FC Heidenheim",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "VfL Wolfsburg",
+    "away_team_name": "1. FC Heidenheim",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "3. Liga",
+    "home_team_name": "Alemannia Aachen",
+    "away_team_name": "Hansa Rostock",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "3. Liga",
+    "home_team_name": "FC Ingolstadt 04",
+    "away_team_name": "Rot-Wei\u00df Essen",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "3. Liga",
+    "home_team_name": "FC Ingolstadt 04",
+    "away_team_name": "Rot-Wei\u00df Essen",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "3. Liga",
+    "home_team_name": "Fortuna D\u00fcsseldorf",
+    "away_team_name": "FC Saarbr\u00fccken",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "3. Liga",
+    "home_team_name": "Fortuna D\u00fcsseldorf",
+    "away_team_name": "FC Saarbr\u00fccken",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "3. Liga",
+    "home_team_name": "SG Sonnenhof Grossaspach",
+    "away_team_name": "Preu\u00dfen M\u00fcnster",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "3. Liga",
+    "home_team_name": "SG Sonnenhof Grossaspach",
+    "away_team_name": "Preu\u00dfen M\u00fcnster",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "3. Liga",
+    "home_team_name": "SG Sonnenhof Grossaspach",
+    "away_team_name": "Preu\u00dfen M\u00fcnster",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "3. Liga",
+    "home_team_name": "W\u00fcrzburger Kickers",
+    "away_team_name": "Waldhof Mannheim",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "3. Liga",
+    "home_team_name": "W\u00fcrzburger Kickers",
+    "away_team_name": "Waldhof Mannheim",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "3. Liga",
+    "home_team_name": "W\u00fcrzburger Kickers",
+    "away_team_name": "Waldhof Mannheim",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "League Two",
+    "home_team_name": "Fleetwood Town",
+    "away_team_name": "Rotherham",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "League Two",
+    "home_team_name": "Fleetwood Town",
+    "away_team_name": "Rotherham",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "League Two",
+    "home_team_name": "Oldham",
+    "away_team_name": "Cheltenham",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "League Two",
+    "home_team_name": "Port Vale",
+    "away_team_name": "Chesterfield",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "League Two",
+    "home_team_name": "Salford City",
+    "away_team_name": "Crawley Town",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "League Two",
+    "home_team_name": "Salford City",
+    "away_team_name": "Crawley Town",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "League Two",
+    "home_team_name": "Salford City",
+    "away_team_name": "Crawley Town",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "League Two",
+    "home_team_name": "Salford City",
+    "away_team_name": "Crawley Town",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "League Two",
+    "home_team_name": "Shrewsbury",
+    "away_team_name": "Bristol Rovers",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "League Two",
+    "home_team_name": "Swindon Town",
+    "away_team_name": "Walsall",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "League Two",
+    "home_team_name": "Swindon Town",
+    "away_team_name": "Walsall",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Brentford",
+    "away_team_name": "Liverpool",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Brentford",
+    "away_team_name": "Liverpool",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Brentford",
+    "away_team_name": "Liverpool",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Brentford",
+    "away_team_name": "Liverpool",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Everton",
+    "away_team_name": "Chelsea",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Everton",
+    "away_team_name": "Chelsea",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Fulham",
+    "away_team_name": "Hull City",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Fulham",
+    "away_team_name": "Hull City",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Fulham",
+    "away_team_name": "Hull City",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Newcastle",
+    "away_team_name": "Aston Villa",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Newcastle",
+    "away_team_name": "Aston Villa",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premier League",
+    "home_team_name": "Newcastle",
+    "away_team_name": "Aston Villa",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-17",
+    "league_name": "Premiership",
+    "home_team_name": "Aberdeen",
+    "away_team_name": "ST Mirren",
+    "market": "O/U 2.5"
+  }
+]
