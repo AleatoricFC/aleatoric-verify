@@ -1,0 +1,261 @@
+[
+  {
+    "date": "2026-10-18",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Arminia Bielefeld",
+    "away_team_name": "VfL Osnabr\u00fcck",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Arminia Bielefeld",
+    "away_team_name": "VfL Osnabr\u00fcck",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Arminia Bielefeld",
+    "away_team_name": "VfL Osnabr\u00fcck",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Arminia Bielefeld",
+    "away_team_name": "VfL Osnabr\u00fcck",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Dynamo Dresden",
+    "away_team_name": "1. FC Magdeburg",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Karlsruher SC",
+    "away_team_name": "SV Darmstadt 98",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Karlsruher SC",
+    "away_team_name": "SV Darmstadt 98",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Karlsruher SC",
+    "away_team_name": "SV Darmstadt 98",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Karlsruher SC",
+    "away_team_name": "SV Darmstadt 98",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "3. Liga",
+    "home_team_name": "Hoffenheim II",
+    "away_team_name": "Verl",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "3. Liga",
+    "home_team_name": "Hoffenheim II",
+    "away_team_name": "Verl",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "3. Liga",
+    "home_team_name": "Hoffenheim II",
+    "away_team_name": "Verl",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "3. Liga",
+    "home_team_name": "MSV Duisburg",
+    "away_team_name": "FC Viktoria K\u00f6ln",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "3. Liga",
+    "home_team_name": "MSV Duisburg",
+    "away_team_name": "FC Viktoria K\u00f6ln",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "3. Liga",
+    "home_team_name": "SV Meppen",
+    "away_team_name": "Havelse",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "3. Liga",
+    "home_team_name": "SV Meppen",
+    "away_team_name": "Havelse",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "3. Liga",
+    "home_team_name": "SV Meppen",
+    "away_team_name": "Havelse",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Premier League",
+    "home_team_name": "Bournemouth",
+    "away_team_name": "Sunderland",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Premier League",
+    "home_team_name": "Bournemouth",
+    "away_team_name": "Sunderland",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Premier League",
+    "home_team_name": "Brighton",
+    "away_team_name": "Crystal Palace",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Premier League",
+    "home_team_name": "Brighton",
+    "away_team_name": "Crystal Palace",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Premier League",
+    "home_team_name": "Brighton",
+    "away_team_name": "Crystal Palace",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Premier League",
+    "home_team_name": "Leeds",
+    "away_team_name": "Manchester United",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Premier League",
+    "home_team_name": "Nottingham Forest",
+    "away_team_name": "Arsenal",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Premiership",
+    "home_team_name": "Celtic",
+    "away_team_name": "Heart Of Midlothian",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Premiership",
+    "home_team_name": "Celtic",
+    "away_team_name": "Heart Of Midlothian",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Premiership",
+    "home_team_name": "Celtic",
+    "away_team_name": "Heart Of Midlothian",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Serie A",
+    "home_team_name": "AC Milan",
+    "away_team_name": "Atalanta",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Serie A",
+    "home_team_name": "AC Milan",
+    "away_team_name": "Atalanta",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Serie A",
+    "home_team_name": "AC Milan",
+    "away_team_name": "Atalanta",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Serie A",
+    "home_team_name": "Fiorentina",
+    "away_team_name": "Como",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Superliga",
+    "home_team_name": "Lyngby",
+    "away_team_name": "FC Nordsjaelland",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Superliga",
+    "home_team_name": "Lyngby",
+    "away_team_name": "FC Nordsjaelland",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Superliga",
+    "home_team_name": "Sonderjyske",
+    "away_team_name": "Silkeborg",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Superliga",
+    "home_team_name": "Sonderjyske",
+    "away_team_name": "Silkeborg",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Superliga",
+    "home_team_name": "Odense",
+    "away_team_name": "Brondby",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-18",
+    "league_name": "Superliga",
+    "home_team_name": "Odense",
+    "away_team_name": "Brondby",
+    "market": "O/U 3.5"
+  }
+]
