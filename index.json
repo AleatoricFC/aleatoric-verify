@@ -359,7 +359,7 @@
       "manifest_sha256": "49a033c58a64d1e755b8f5db3b1ba4d066a7f81e59b0021bd2bb994bf434409d",
       "bets_sha256": "e46a590ee97b37d91a1e5468250000035c558cac94375a01c6dd8bf6ec071bfd",
       "signature": "GO3ykvM7QSI1duocsOIdlDJDhvV0wjVIpKwl0rK++kCAfNRqu+AUhFYwmreUnXMOe2432/HAVq/qtvTwZIloCw==",
-      "bets_present": false,
+      "bets_present": true,
       "prev": "9e6470f4a06d3a3a574fe248fc61119944b82f8a4337744d4f2a244f3e162299",
       "chain": "d453d90f8caf69cbc0d124183a3970f6e8214067e8db30aa5137aa6d56354625",
       "results_present": false
