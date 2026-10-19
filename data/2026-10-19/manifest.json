@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-10-19",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Coventry",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Coventry",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Coventry",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Coventry",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Serie A",
+    "home_team_name": "Monza",
+    "away_team_name": "Cagliari",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Serie A",
+    "home_team_name": "Parma",
+    "away_team_name": "Torino",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Superliga",
+    "home_team_name": "Viborg",
+    "away_team_name": "FC Midtjylland",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Superliga",
+    "home_team_name": "Viborg",
+    "away_team_name": "FC Midtjylland",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Superliga",
+    "home_team_name": "Viborg",
+    "away_team_name": "FC Midtjylland",
+    "market": "O/U 4.5"
+  }
+]
