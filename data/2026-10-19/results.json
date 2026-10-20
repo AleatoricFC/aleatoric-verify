@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-10-19",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Coventry",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Coventry",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Coventry",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Coventry",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Coventry",
+    "market": "O/U 4.5",
+    "outcome": "under_4.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Serie A",
+    "home_team_name": "Monza",
+    "away_team_name": "Cagliari",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Serie A",
+    "home_team_name": "Parma",
+    "away_team_name": "Torino",
+    "market": "O/U 1.5",
+    "outcome": "over_1.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Superliga",
+    "home_team_name": "Viborg",
+    "away_team_name": "FC Midtjylland",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Superliga",
+    "home_team_name": "Viborg",
+    "away_team_name": "FC Midtjylland",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-19",
+    "league_name": "Superliga",
+    "home_team_name": "Viborg",
+    "away_team_name": "FC Midtjylland",
+    "market": "O/U 4.5",
+    "outcome": "under_4.5",
+    "settled": "WON"
+  }
+]
