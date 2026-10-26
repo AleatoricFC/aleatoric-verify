@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-10-26",
+    "league_name": "Ligue 1",
+    "home_team_name": "Paris Saint Germain",
+    "away_team_name": "Lyon",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-10-26",
+    "league_name": "Ligue 1",
+    "home_team_name": "Paris Saint Germain",
+    "away_team_name": "Lyon",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-10-26",
+    "league_name": "Ligue 1",
+    "home_team_name": "Paris Saint Germain",
+    "away_team_name": "Lyon",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-10-26",
+    "league_name": "Ligue 1",
+    "home_team_name": "Paris Saint Germain",
+    "away_team_name": "Lyon",
+    "market": "O/U 4.5"
+  }
+]
