@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-10-25",
+    "league_name": "La Liga",
+    "home_team_name": "Athletic Club",
+    "away_team_name": "Getafe",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-25",
+    "league_name": "La Liga",
+    "home_team_name": "Athletic Club",
+    "away_team_name": "Getafe",
+    "market": "O/U 1.5",
+    "outcome": "over_1.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-25",
+    "league_name": "La Liga",
+    "home_team_name": "Real Sociedad",
+    "away_team_name": "Levante",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-25",
+    "league_name": "La Liga",
+    "home_team_name": "Real Sociedad",
+    "away_team_name": "Levante",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-25",
+    "league_name": "La Liga",
+    "home_team_name": "Real Sociedad",
+    "away_team_name": "Levante",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-25",
+    "league_name": "La Liga",
+    "home_team_name": "Real Sociedad",
+    "away_team_name": "Levante",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-25",
+    "league_name": "Ligue 1",
+    "home_team_name": "Monaco",
+    "away_team_name": "Lille",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-25",
+    "league_name": "Premier League",
+    "home_team_name": "Manchester United",
+    "away_team_name": "Bournemouth",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-25",
+    "league_name": "Premier League",
+    "home_team_name": "Manchester United",
+    "away_team_name": "Bournemouth",
+    "market": "O/U 1.5",
+    "outcome": "over_1.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-25",
+    "league_name": "Serie A",
+    "home_team_name": "Lecce",
+    "away_team_name": "Juventus",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-25",
+    "league_name": "Superliga",
+    "home_team_name": "FC Midtjylland",
+    "away_team_name": "Lyngby",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  }
+]
