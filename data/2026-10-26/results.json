@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2026-10-26",
+    "league_name": "Ligue 1",
+    "home_team_name": "Paris Saint Germain",
+    "away_team_name": "Lyon",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-26",
+    "league_name": "Ligue 1",
+    "home_team_name": "Paris Saint Germain",
+    "away_team_name": "Lyon",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-10-26",
+    "league_name": "Ligue 1",
+    "home_team_name": "Paris Saint Germain",
+    "away_team_name": "Lyon",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-26",
+    "league_name": "Ligue 1",
+    "home_team_name": "Paris Saint Germain",
+    "away_team_name": "Lyon",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-10-26",
+    "league_name": "Ligue 1",
+    "home_team_name": "Paris Saint Germain",
+    "away_team_name": "Lyon",
+    "market": "O/U 4.5",
+    "outcome": "under_4.5",
+    "settled": "WON"
+  }
+]
