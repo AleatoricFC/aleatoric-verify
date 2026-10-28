@@ -457,7 +457,7 @@
       "manifest_sha256": "4a9e2dadc0a015210915d457389771f02040e69fb30b37b153c23342f1b0038c",
       "bets_sha256": "d03a60cb5a8c3413de86575145b659eb25d51105015dcb6bb10f5e3738c5e09d",
       "signature": "CFcMtyzEY958zVBlEvCeWvsugGPfzDGCND0j4Kj/N9ch0caIfoDVOso/m//bMqAH8w41E71gCqb98hVTlwTHCg==",
-      "bets_present": false,
+      "bets_present": true,
       "prev": "4751e9ce5f989dff2e0123b89b9d5ad987536665e11defc2a34cd5ec651e0d99",
       "chain": "99b00d31659704adc0b410eb8aef0b3900f397863fa27e0144e3b171bcf7df97",
       "results_present": false
