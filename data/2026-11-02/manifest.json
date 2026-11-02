@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-11-02",
+    "league_name": "Ligue 2",
+    "home_team_name": "Reims",
+    "away_team_name": "Sochaux",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-02",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Oviedo",
+    "away_team_name": "Las Palmas",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-02",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Oviedo",
+    "away_team_name": "Las Palmas",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-02",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Oviedo",
+    "away_team_name": "Las Palmas",
+    "market": "O/U 3.5"
+  }
+]
