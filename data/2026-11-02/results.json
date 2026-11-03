@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2026-11-02",
+    "league_name": "Ligue 2",
+    "home_team_name": "Reims",
+    "away_team_name": "Sochaux",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-02",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Oviedo",
+    "away_team_name": "Las Palmas",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-02",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Oviedo",
+    "away_team_name": "Las Palmas",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-02",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Oviedo",
+    "away_team_name": "Las Palmas",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-02",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Oviedo",
+    "away_team_name": "Las Palmas",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "LOST"
+  }
+]
