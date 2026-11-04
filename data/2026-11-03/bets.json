@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2026-11-03",
+    "fixture_id": 1563249,
+    "league_name": "Championship",
+    "home_team_name": "Charlton",
+    "away_team_name": "Bolton",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 3.15,
+    "size": 5.77,
+    "model_probability": 0.38018226623535156,
+    "predicted_proba_home": 0.3509097099304199,
+    "predicted_proba_draw": 0.2689080238342285,
+    "predicted_proba_away": 0.38018226623535156
+  },
+  {
+    "date": "2026-11-03",
+    "fixture_id": 1563246,
+    "league_name": "Championship",
+    "home_team_name": "West Brom",
+    "away_team_name": "Southampton",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 2.8,
+    "size": 6.16,
+    "model_probability": 0.42275587984192015,
+    "predicted_proba_home": 0.3209007978439331,
+    "predicted_proba_draw": 0.2563433051109314,
+    "predicted_proba_away": 0.4227558672428131
+  }
+]
