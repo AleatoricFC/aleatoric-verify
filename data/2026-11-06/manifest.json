@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-11-06",
+    "league_name": "Championship",
+    "home_team_name": "Derby",
+    "away_team_name": "Bolton",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-06",
+    "league_name": "Ligue 2",
+    "home_team_name": "Nancy",
+    "away_team_name": "Sochaux",
+    "market": "H/D/A"
+  }
+]
