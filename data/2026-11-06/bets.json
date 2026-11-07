@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2026-11-06",
+    "fixture_id": 1563256,
+    "league_name": "Championship",
+    "home_team_name": "Derby",
+    "away_team_name": "Bolton",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 2.76,
+    "size": 6.7,
+    "model_probability": 0.43169401789623446,
+    "predicted_proba_home": 0.43169403076171875,
+    "predicted_proba_draw": 0.2567395865917206,
+    "predicted_proba_away": 0.31156641244888306
+  },
+  {
+    "date": "2026-11-06",
+    "fixture_id": 1552528,
+    "league_name": "Ligue 2",
+    "home_team_name": "Nancy",
+    "away_team_name": "Sochaux",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 5.9,
+    "size": 3.53,
+    "model_probability": 0.21679917103045962,
+    "predicted_proba_home": 0.5238404273986816,
+    "predicted_proba_draw": 0.25936034321784973,
+    "predicted_proba_away": 0.21679915487766266
+  }
+]
