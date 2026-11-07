@@ -1,0 +1,212 @@
+[
+  {
+    "date": "2026-11-07",
+    "league_name": "3. Liga",
+    "home_team_name": "FC Ingolstadt 04",
+    "away_team_name": "Fortuna D\u00fcsseldorf",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "3. Liga",
+    "home_team_name": "FC Ingolstadt 04",
+    "away_team_name": "Fortuna D\u00fcsseldorf",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "3. Liga",
+    "home_team_name": "FC Ingolstadt 04",
+    "away_team_name": "Fortuna D\u00fcsseldorf",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "3. Liga",
+    "home_team_name": "FC Ingolstadt 04",
+    "away_team_name": "Fortuna D\u00fcsseldorf",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "Cardiff",
+    "away_team_name": "Burnley",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "Cardiff",
+    "away_team_name": "Burnley",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "Cardiff",
+    "away_team_name": "Burnley",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "Cardiff",
+    "away_team_name": "Burnley",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "Cardiff",
+    "away_team_name": "Burnley",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "QPR",
+    "away_team_name": "Lincoln",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "QPR",
+    "away_team_name": "Lincoln",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "QPR",
+    "away_team_name": "Lincoln",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "Watford",
+    "away_team_name": "Middlesbrough",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "Watford",
+    "away_team_name": "Middlesbrough",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "Watford",
+    "away_team_name": "Middlesbrough",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Championship",
+    "home_team_name": "Watford",
+    "away_team_name": "Middlesbrough",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Ligue 1",
+    "home_team_name": "Auxerre",
+    "away_team_name": "Paris FC",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Ligue 1",
+    "home_team_name": "Auxerre",
+    "away_team_name": "Paris FC",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Ligue 1",
+    "home_team_name": "Auxerre",
+    "away_team_name": "Paris FC",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Ligue 1",
+    "home_team_name": "Paris Saint Germain",
+    "away_team_name": "Estac Troyes",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Ligue 1",
+    "home_team_name": "Paris Saint Germain",
+    "away_team_name": "Estac Troyes",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Premiership",
+    "home_team_name": "ST Johnstone",
+    "away_team_name": "Dundee",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cadiz",
+    "away_team_name": "Oviedo",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cadiz",
+    "away_team_name": "Oviedo",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cadiz",
+    "away_team_name": "Oviedo",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cordoba",
+    "away_team_name": "AD Ceuta FC",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cordoba",
+    "away_team_name": "AD Ceuta FC",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cordoba",
+    "away_team_name": "AD Ceuta FC",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cordoba",
+    "away_team_name": "AD Ceuta FC",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-11-07",
+    "league_name": "Serie B",
+    "home_team_name": "Cesena",
+    "away_team_name": "Catanzaro",
+    "market": "H/D/A"
+  }
+]
