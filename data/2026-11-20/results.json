@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-11-20",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Arminia Bielefeld",
+    "away_team_name": "1. FC Magdeburg",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-20",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "Arminia Bielefeld",
+    "away_team_name": "1. FC Magdeburg",
+    "market": "O/U 1.5",
+    "outcome": "over_1.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-20",
+    "league_name": "Bundesliga",
+    "home_team_name": "Bayern M\u00fcnchen",
+    "away_team_name": "1. FC K\u00f6ln",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-20",
+    "league_name": "Ligue 1",
+    "home_team_name": "Estac Troyes",
+    "away_team_name": "Le Havre",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-20",
+    "league_name": "Ligue 1",
+    "home_team_name": "Estac Troyes",
+    "away_team_name": "Le Havre",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-20",
+    "league_name": "Superliga",
+    "home_team_name": "Aarhus",
+    "away_team_name": "Lyngby",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-20",
+    "league_name": "Superliga",
+    "home_team_name": "Aarhus",
+    "away_team_name": "Lyngby",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  }
+]
