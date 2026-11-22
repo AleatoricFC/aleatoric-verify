@@ -1,0 +1,299 @@
+[
+  {
+    "date": "2026-11-21",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "FC St. Pauli",
+    "away_team_name": "VfL Bochum",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "FC St. Pauli",
+    "away_team_name": "VfL Bochum",
+    "market": "O/U 1.5",
+    "outcome": "over_1.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "FC St. Pauli",
+    "away_team_name": "VfL Bochum",
+    "market": "O/U 3.5",
+    "outcome": "over_3.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "FC St. Pauli",
+    "away_team_name": "VfL Bochum",
+    "market": "O/U 4.5",
+    "outcome": "over_4.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "VfL Wolfsburg",
+    "away_team_name": "Holstein Kiel",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "VfL Wolfsburg",
+    "away_team_name": "Holstein Kiel",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "VfL Wolfsburg",
+    "away_team_name": "Holstein Kiel",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "VfL Wolfsburg",
+    "away_team_name": "Holstein Kiel",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "3. Liga",
+    "home_team_name": "Fortuna K\u00f6ln",
+    "away_team_name": "SV Meppen",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Championship",
+    "home_team_name": "Lincoln",
+    "away_team_name": "Wrexham",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Championship",
+    "home_team_name": "Lincoln",
+    "away_team_name": "Wrexham",
+    "market": "O/U 1.5",
+    "outcome": "over_1.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Championship",
+    "home_team_name": "Millwall",
+    "away_team_name": "QPR",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Championship",
+    "home_team_name": "Millwall",
+    "away_team_name": "QPR",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Championship",
+    "home_team_name": "Millwall",
+    "away_team_name": "QPR",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Championship",
+    "home_team_name": "Millwall",
+    "away_team_name": "QPR",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Jupiler Pro League",
+    "home_team_name": "Charleroi",
+    "away_team_name": "St. Truiden",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Jupiler Pro League",
+    "home_team_name": "Charleroi",
+    "away_team_name": "St. Truiden",
+    "market": "O/U 1.5",
+    "outcome": "over_1.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "La Liga",
+    "home_team_name": "Rayo Vallecano",
+    "away_team_name": "Valencia",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "La Liga",
+    "home_team_name": "Rayo Vallecano",
+    "away_team_name": "Valencia",
+    "market": "O/U 1.5",
+    "outcome": "over_1.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "League One",
+    "home_team_name": "Oxford United",
+    "away_team_name": "Wycombe",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "League One",
+    "home_team_name": "Oxford United",
+    "away_team_name": "Wycombe",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "League One",
+    "home_team_name": "Oxford United",
+    "away_team_name": "Wycombe",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Ligue 1",
+    "home_team_name": "Lille",
+    "away_team_name": "Lyon",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Ligue 1",
+    "home_team_name": "Lille",
+    "away_team_name": "Lyon",
+    "market": "O/U 2.5",
+    "outcome": "over_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Ipswich",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Ipswich",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Ipswich",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Ipswich",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Premier League",
+    "home_team_name": "Tottenham",
+    "away_team_name": "Ipswich",
+    "market": "O/U 4.5",
+    "outcome": "under_4.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Premiership",
+    "home_team_name": "Motherwell",
+    "away_team_name": "Rangers",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Premiership",
+    "home_team_name": "Motherwell",
+    "away_team_name": "Rangers",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Premiership",
+    "home_team_name": "Motherwell",
+    "away_team_name": "Rangers",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-21",
+    "league_name": "Premiership",
+    "home_team_name": "Motherwell",
+    "away_team_name": "Rangers",
+    "market": "O/U 4.5",
+    "outcome": "under_4.5",
+    "settled": "WON"
+  }
+]
