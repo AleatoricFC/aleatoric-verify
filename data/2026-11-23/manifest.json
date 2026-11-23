@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-11-23",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "AD Ceuta FC",
+    "away_team_name": "Almeria",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-23",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "AD Ceuta FC",
+    "away_team_name": "Almeria",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-23",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "AD Ceuta FC",
+    "away_team_name": "Almeria",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-23",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "AD Ceuta FC",
+    "away_team_name": "Almeria",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-11-23",
+    "league_name": "Serie A",
+    "home_team_name": "Monza",
+    "away_team_name": "Fiorentina",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-23",
+    "league_name": "Serie A",
+    "home_team_name": "Monza",
+    "away_team_name": "Fiorentina",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-23",
+    "league_name": "Serie A",
+    "home_team_name": "Monza",
+    "away_team_name": "Fiorentina",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-23",
+    "league_name": "Serie A",
+    "home_team_name": "Monza",
+    "away_team_name": "Fiorentina",
+    "market": "O/U 4.5"
+  }
+]
