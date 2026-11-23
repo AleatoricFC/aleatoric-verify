@@ -1,0 +1,191 @@
+[
+  {
+    "date": "2026-11-22",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Kaiserslautern",
+    "away_team_name": "Dynamo Dresden",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Kaiserslautern",
+    "away_team_name": "Dynamo Dresden",
+    "market": "O/U 1.5",
+    "outcome": "over_1.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Kaiserslautern",
+    "away_team_name": "Dynamo Dresden",
+    "market": "O/U 2.5",
+    "outcome": "over_2.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "3. Liga",
+    "home_team_name": "Stuttgart II",
+    "away_team_name": "FC Ingolstadt 04",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "3. Liga",
+    "home_team_name": "Stuttgart II",
+    "away_team_name": "FC Ingolstadt 04",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Bundesliga",
+    "home_team_name": "FC Augsburg",
+    "away_team_name": "FSV Mainz 05",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Bundesliga",
+    "home_team_name": "FC Augsburg",
+    "away_team_name": "FSV Mainz 05",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Ligue 1",
+    "home_team_name": "Marseille",
+    "away_team_name": "Le Mans",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Ligue 1",
+    "home_team_name": "Marseille",
+    "away_team_name": "Le Mans",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Ligue 1",
+    "home_team_name": "Marseille",
+    "away_team_name": "Le Mans",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Ligue 1",
+    "home_team_name": "Marseille",
+    "away_team_name": "Le Mans",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Premier League",
+    "home_team_name": "Hull City",
+    "away_team_name": "Brighton",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Premier League",
+    "home_team_name": "Hull City",
+    "away_team_name": "Brighton",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Burgos",
+    "away_team_name": "Albacete",
+    "market": "H/D/A",
+    "outcome": "home",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Burgos",
+    "away_team_name": "Albacete",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cordoba",
+    "away_team_name": "Oviedo",
+    "market": "H/D/A",
+    "outcome": "draw",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cordoba",
+    "away_team_name": "Oviedo",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cordoba",
+    "away_team_name": "Oviedo",
+    "market": "O/U 2.5",
+    "outcome": "under_2.5",
+    "settled": "LOST"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cordoba",
+    "away_team_name": "Oviedo",
+    "market": "O/U 3.5",
+    "outcome": "under_3.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Cordoba",
+    "away_team_name": "Oviedo",
+    "market": "O/U 4.5",
+    "outcome": "under_4.5",
+    "settled": "WON"
+  },
+  {
+    "date": "2026-11-22",
+    "league_name": "Superliga",
+    "home_team_name": "FC Nordsjaelland",
+    "away_team_name": "FC Copenhagen",
+    "market": "H/D/A",
+    "outcome": "away",
+    "settled": "LOST"
+  }
+]
