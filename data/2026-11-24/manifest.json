@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-11-24",
+    "league_name": "League One",
+    "home_team_name": "Bradford",
+    "away_team_name": "Barnsley",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-24",
+    "league_name": "League One",
+    "home_team_name": "Bradford",
+    "away_team_name": "Barnsley",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-24",
+    "league_name": "League One",
+    "home_team_name": "Bradford",
+    "away_team_name": "Barnsley",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-24",
+    "league_name": "League One",
+    "home_team_name": "Bradford",
+    "away_team_name": "Barnsley",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-11-24",
+    "league_name": "Premiership",
+    "home_team_name": "Hibernian",
+    "away_team_name": "Dundee",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-24",
+    "league_name": "Premiership",
+    "home_team_name": "Hibernian",
+    "away_team_name": "Dundee",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-24",
+    "league_name": "Premiership",
+    "home_team_name": "Hibernian",
+    "away_team_name": "Dundee",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-11-24",
+    "league_name": "Serie B",
+    "home_team_name": "Juve Stabia",
+    "away_team_name": "Catanzaro",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-24",
+    "league_name": "Serie B",
+    "home_team_name": "Juve Stabia",
+    "away_team_name": "Catanzaro",
+    "market": "O/U 3.5"
+  }
+]
