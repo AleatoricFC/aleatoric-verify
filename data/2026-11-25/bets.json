@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-11-25",
+    "fixture_id": 1601620,
+    "league_name": "Serie B",
+    "home_team_name": "Padova",
+    "away_team_name": "Sampdoria",
+    "market": "H/D/A",
+    "outcome": "home",
+    "price": 3.25,
+    "size": 5.32,
+    "model_probability": 0.3718701864597035,
+    "predicted_proba_home": 0.371870219707489,
+    "predicted_proba_draw": 0.28493261337280273,
+    "predicted_proba_away": 0.3431972563266754
+  }
+]
