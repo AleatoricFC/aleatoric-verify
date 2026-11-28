@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2026-11-27",
+    "fixture_id": 1576245,
+    "league_name": "2. Bundesliga",
+    "home_team_name": "1. FC Heidenheim",
+    "away_team_name": "1. FC N\u00fcrnberg",
+    "market": "H/D/A",
+    "outcome": "away",
+    "price": 3.1,
+    "size": 6.13,
+    "model_probability": 0.3911168160701747,
+    "predicted_proba_home": 0.37344539165496826,
+    "predicted_proba_draw": 0.23543781042099,
+    "predicted_proba_away": 0.39111682772636414
+  }
+]
