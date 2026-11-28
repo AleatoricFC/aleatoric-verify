@@ -1,0 +1,247 @@
+[
+  {
+    "date": "2026-11-28",
+    "league_name": "3. Liga",
+    "home_team_name": "W\u00fcrzburger Kickers",
+    "away_team_name": "Fortuna D\u00fcsseldorf",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "3. Liga",
+    "home_team_name": "W\u00fcrzburger Kickers",
+    "away_team_name": "Fortuna D\u00fcsseldorf",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Bundesliga",
+    "home_team_name": "1. FC K\u00f6ln",
+    "away_team_name": "SV Elversberg",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Bundesliga",
+    "home_team_name": "1. FC K\u00f6ln",
+    "away_team_name": "SV Elversberg",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Bundesliga",
+    "home_team_name": "1. FC K\u00f6ln",
+    "away_team_name": "SV Elversberg",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Championship",
+    "home_team_name": "Millwall",
+    "away_team_name": "Burnley",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Championship",
+    "home_team_name": "Millwall",
+    "away_team_name": "Burnley",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Championship",
+    "home_team_name": "Millwall",
+    "away_team_name": "Burnley",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Championship",
+    "home_team_name": "West Brom",
+    "away_team_name": "Bristol City",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "La Liga",
+    "home_team_name": "Elche",
+    "away_team_name": "Atletico Madrid",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League One",
+    "home_team_name": "AFC Wimbledon",
+    "away_team_name": "Barnsley",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League One",
+    "home_team_name": "AFC Wimbledon",
+    "away_team_name": "Barnsley",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League One",
+    "home_team_name": "Luton",
+    "away_team_name": "Oxford United",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League One",
+    "home_team_name": "Luton",
+    "away_team_name": "Oxford United",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League One",
+    "home_team_name": "Luton",
+    "away_team_name": "Oxford United",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League One",
+    "home_team_name": "Luton",
+    "away_team_name": "Oxford United",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League One",
+    "home_team_name": "Wigan",
+    "away_team_name": "Plymouth",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League One",
+    "home_team_name": "Wigan",
+    "away_team_name": "Plymouth",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League One",
+    "home_team_name": "Wigan",
+    "away_team_name": "Plymouth",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League Two",
+    "home_team_name": "Exeter City",
+    "away_team_name": "Crawley Town",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League Two",
+    "home_team_name": "Exeter City",
+    "away_team_name": "Crawley Town",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League Two",
+    "home_team_name": "Exeter City",
+    "away_team_name": "Crawley Town",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "League Two",
+    "home_team_name": "Rochdale",
+    "away_team_name": "Barnet",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Premiership",
+    "home_team_name": "Aberdeen",
+    "away_team_name": "Dundee",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Premiership",
+    "home_team_name": "Aberdeen",
+    "away_team_name": "Dundee",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Premiership",
+    "home_team_name": "Aberdeen",
+    "away_team_name": "Dundee",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Premiership",
+    "home_team_name": "Aberdeen",
+    "away_team_name": "Dundee",
+    "market": "O/U 4.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Valladolid",
+    "away_team_name": "Real Sociedad II",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Valladolid",
+    "away_team_name": "Real Sociedad II",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Segunda Divisi\u00f3n",
+    "home_team_name": "Valladolid",
+    "away_team_name": "Real Sociedad II",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Serie A",
+    "home_team_name": "Frosinone",
+    "away_team_name": "Parma",
+    "market": "H/D/A"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Serie A",
+    "home_team_name": "Frosinone",
+    "away_team_name": "Parma",
+    "market": "O/U 1.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Serie A",
+    "home_team_name": "Frosinone",
+    "away_team_name": "Parma",
+    "market": "O/U 2.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Serie A",
+    "home_team_name": "Frosinone",
+    "away_team_name": "Parma",
+    "market": "O/U 3.5"
+  },
+  {
+    "date": "2026-11-28",
+    "league_name": "Serie A",
+    "home_team_name": "Frosinone",
+    "away_team_name": "Parma",
+    "market": "O/U 4.5"
+  }
+]
